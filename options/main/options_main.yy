@@ -9,7 +9,7 @@
   "option_sci_usesci": true,
   "option_author": "MysteriousShep",
   "option_collision_compatibility": true,
-  "option_lastchanged": "11 March 2022 9:50:09",
+  "option_lastchanged": "11 March 2022 2:17:02",
   "option_spine_licence": false,
   "option_template_image": "template_image.png",
   "option_template_icon": "template_icon.png",
