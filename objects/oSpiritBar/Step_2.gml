@@ -1,6 +1,8 @@
 /// @desc Update Image
 image_index = 21 - oPlayer.spirit
-
+if oPlayer.infiniteSpirit {
+	sprite_index = sSpiritBarInfinite
+} else sprite_index = sSpiritBar
 
 if keyboard_check_pressed(vk_f1) {
 	oPlayer.hasProjectile = not oPlayer.hasProjectile

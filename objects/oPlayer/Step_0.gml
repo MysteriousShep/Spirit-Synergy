@@ -14,16 +14,6 @@ switch(state) {
 			projectile =  gamepad_button_check_pressed(pad_num,gp_shoulderrb)
 			key_down = gamepad_axis_value(pad_num,gp_axislv) > 0
 		}
-		else
-		{
-			key_left = keyboard_check(vk_left) or keyboard_check(ord("A"))
-			key_right = keyboard_check(vk_right) or keyboard_check(ord("D"))
-			key_jump = keyboard_check(ord("Z")) or keyboard_check(vk_insert) or keyboard_check(vk_numpad0)
-			dash = keyboard_check_pressed(ord("X")) or keyboard_check(vk_decimal) or keyboard_check(vk_delete)
-			attack = keyboard_check_pressed(ord("C"))
-			projectile = keyboard_check_pressed(vk_space)
-			key_down = keyboard_check_pressed(ord("S")) or keyboard_check(vk_down)
-		}
 		break
 	case("dash"):
 		key_left = false
@@ -38,20 +28,14 @@ switch(state) {
 			if is_controller {
 				key_left = gamepad_axis_value(pad_num,gp_axislh) < 0 or gamepad_button_check(pad_num,gp_padl)
 				key_right = gamepad_axis_value(pad_num,gp_axislh) > 0 or gamepad_button_check(pad_num,gp_padr)
-			} else {
-				key_left = keyboard_check(vk_left) or keyboard_check(ord("A"))
-				key_right = keyboard_check(vk_right) or keyboard_check(ord("D"))
 			}
 		} else {
 			key_left = false
 			key_right = false
 		}
 		key_jump = false
-		if not is_controller
+		if is_controller
 		{
-			dash = keyboard_check_pressed(ord("X")) or keyboard_check(vk_decimal) or keyboard_check(vk_delete)
-			projectile = false
-		} else {
 			dash = gamepad_button_check_pressed(pad_num,gp_face1) or gamepad_button_check(pad_num,gp_face4)
 			projectile = false
 		}
@@ -76,14 +60,8 @@ switch(state) {
 		key_left = false
 		key_right = false
 		key_jump = false
-		if not is_controller
-		{
-			dash = false
-			projectile = false
-		} else {
-			dash = false
-			projectile = false
-		}
+		dash = false
+		projectile = false
 		attack = false
 		
 		break
@@ -111,9 +89,7 @@ if (dash and not instance_exists(oPlayerGhost) and hasDash) {
 }
 
 if (projectile and not instance_exists(oPlayerGhost) and hasProjectile) {
-	if (spirit-2>=0) {
-		
-		spirit -=0
+	if (spirit>0) {
 		state = "attack"
 		frame = 24
 		image_index = 0
@@ -336,7 +312,11 @@ if (frame <= 0) {
 }
 if (hsp != 0) image_xscale = sign(hsp)*4
 
-if (spirit<21 and not instance_exists(oPlayerGhost) and state == "free") spirit += 0.1
+if not infiniteSpirit {
+	if (spirit<21 and not instance_exists(oPlayerGhost) and state == "free") spirit += 0.1
+} else {
+	spirit = 21
+}
 
 // SET TO PLACEHOLDER
 /*

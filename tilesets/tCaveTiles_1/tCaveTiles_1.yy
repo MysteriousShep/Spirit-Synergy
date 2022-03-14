@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sTileset_1",
-    "path": "sprites/sTileset_1/sTileset_1.yy",
-  },
+  "spriteId": null,
   "tileWidth": 64,
   "tileHeight": 64,
   "tilexoff": 0,

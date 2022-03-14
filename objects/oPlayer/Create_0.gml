@@ -5,6 +5,7 @@ vsp = 0
 grv = 0.3
 godMode = false
 noClip = false
+infiniteSpirit = false
 walksp = 5
 spirit = 21
 state = "free"
@@ -28,9 +29,9 @@ roomArray = [
 				[Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room],
 				[Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room],
 				[Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room],
-				[Room_1_2,Room_1_3,Room_2_3,Debug_Room,Debug_Room,Debug_Room],
-				[Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room],
-				[Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room]]
+				[Room_1_2,Room_1_3,Room_2_3,Room_3_3,Room_3_3_5,Room_4_3,Room_5_3],
+				[Debug_Room,Debug_Room,Debug_Room,Room_2_4,Room_3_4,Room_4_4,Debug_Room],
+				[Debug_Room,Debug_Room,Debug_Room,Room_2_5,Room_3_5,Room_4_5,Debug_Room]]
 				
 
 animations = {

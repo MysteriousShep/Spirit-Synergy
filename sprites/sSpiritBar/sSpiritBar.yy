@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"50b623a8-003a-4927-a677-da23db1a55ef","path":"sprites/sSpiritBar/sSpiritBar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"50b623a8-003a-4927-a677-da23db1a55ef","path":"sprites/sSpiritBar/sSpiritBar.yy",},"LayerId":{"name":"f480bb2f-9937-4642-8fb7-4fab23223a5a","path":"sprites/sSpiritBar/sSpiritBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSpiritBar","path":"sprites/sSpiritBar/sSpiritBar.yy",},"resourceVersion":"1.0","name":"50b623a8-003a-4927-a677-da23db1a55ef","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"390eabdc-680c-4260-a9a8-2c08e6e75cb7","path":"sprites/sSpiritBar/sSpiritBar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"390eabdc-680c-4260-a9a8-2c08e6e75cb7","path":"sprites/sSpiritBar/sSpiritBar.yy",},"LayerId":{"name":"f480bb2f-9937-4642-8fb7-4fab23223a5a","path":"sprites/sSpiritBar/sSpiritBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSpiritBar","path":"sprites/sSpiritBar/sSpiritBar.yy",},"resourceVersion":"1.0","name":"390eabdc-680c-4260-a9a8-2c08e6e75cb7","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"ab6206de-41a2-4f59-8cec-8bcf6512b79a","path":"sprites/sSpiritBar/sSpiritBar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ab6206de-41a2-4f59-8cec-8bcf6512b79a","path":"sprites/sSpiritBar/sSpiritBar.yy",},"LayerId":{"name":"f480bb2f-9937-4642-8fb7-4fab23223a5a","path":"sprites/sSpiritBar/sSpiritBar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sSpiritBar","path":"sprites/sSpiritBar/sSpiritBar.yy",},"resourceVersion":"1.0","name":"ab6206de-41a2-4f59-8cec-8bcf6512b79a","tags":[],"resourceType":"GMSpriteFrame",},
@@ -104,7 +104,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0ff9dde0-6706-4900-b505-d0c74abfda78","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"50b623a8-003a-4927-a677-da23db1a55ef","path":"sprites/sSpiritBar/sSpiritBar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"dfe520cb-1958-4ad4-80e3-6f3a412e8db4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"390eabdc-680c-4260-a9a8-2c08e6e75cb7","path":"sprites/sSpiritBar/sSpiritBar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8d857b61-3588-4538-8c8c-5d3f8bf1c2d8","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab6206de-41a2-4f59-8cec-8bcf6512b79a","path":"sprites/sSpiritBar/sSpiritBar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"39a0b031-3b29-4d73-bf26-6b0bff3aeddb","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"89497984-1800-4579-902e-e22f8fe4852f","path":"sprites/sSpiritBar/sSpiritBar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"8b0f8a89-6a0d-417f-99c1-375112b84dd1","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ff18b542-b78c-4e57-b6cf-0d756a9add81","path":"sprites/sSpiritBar/sSpiritBar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
