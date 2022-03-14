@@ -56,16 +56,11 @@ y += vsp;
 
 if(is_controller == true)
 {
-	haxis = gamepad_is_connected(pad_num) ? gamepad_axis_value(pad_num, gp_axisrh) : 0;
+	haxis =gamepad_axis_value(pad_num, gp_axisrh);
 
-	vaxis = gamepad_is_connected(pad_num) ? gamepad_axis_value(pad_num, gp_axisrv) : 0;
+	vaxis = gamepad_axis_value(pad_num, gp_axisrv);
 }
 
-else
-{
-	haxis = (keyboard_check(ord("D")) or keyboard_check(vk_right)) - (keyboard_check(ord("A")) or keyboard_check(vk_left))
-	vaxis = (keyboard_check(ord("S")) or keyboard_check(vk_down)) - (keyboard_check(ord("W")) or keyboard_check(vk_up))
-}
 
 if (haxis != 0 or vaxis != 0) {
 	hsp += haxis*1.5

@@ -61,7 +61,8 @@ switch(currentMenu) {
 						chosenIndex = 0
 						selectedButton = buttons[chosenIndex]
 						instance_create_layer(1280/2,704/2,"instances_1",oInvincibilityToggle)
-						instance_create_layer(1280/2,704/2+64,"instances_1",oBackButton)
+						instance_create_layer(1280/2,704/2+64,"instances_1",oInfiniteSpiritToggle)
+						instance_create_layer(1280/2,704/2+128,"instances_1",oBackButton)
 						break
 				}
 			}
@@ -111,6 +112,9 @@ switch(currentMenu) {
 						} else {
 							oPlayer.image_blend = c_white
 						}
+						break
+					case("infinite spirit"):
+						oPlayer.infiniteSpirit = not oPlayer.infiniteSpirit
 						break
 				}
 			}
