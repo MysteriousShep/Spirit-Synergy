@@ -85,7 +85,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBigMushroom","path":"sprites/sBigMushroom/sBigMushroom.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBigMushroom",
     "tags": [],
     "resourceType": "GMSequence",

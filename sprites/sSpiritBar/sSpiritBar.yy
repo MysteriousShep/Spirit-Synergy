@@ -143,7 +143,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSpiritBar","path":"sprites/sSpiritBar/sSpiritBar.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sSpiritBar",
     "tags": [],
     "resourceType": "GMSequence",

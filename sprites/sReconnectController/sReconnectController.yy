@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sReconnectController","path":"sprites/sReconnectController/sReconnectController.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sReconnectController",
     "tags": [],
     "resourceType": "GMSequence",

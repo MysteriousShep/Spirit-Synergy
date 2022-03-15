@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBananaForScale","path":"sprites/sBananaForScale/sBananaForScale.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBananaForScale",
     "tags": [],
     "resourceType": "GMSequence",

@@ -151,7 +151,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyAttackHitbox","path":"sprites/sFinleyAttackHitbox/sFinleyAttackHitbox.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFinleyAttackHitbox",
     "tags": [],
     "resourceType": "GMSequence",

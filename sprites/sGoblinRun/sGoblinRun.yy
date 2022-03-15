@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGoblinRun","path":"sprites/sGoblinRun/sGoblinRun.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGoblinRun",
     "tags": [],
     "resourceType": "GMSequence",

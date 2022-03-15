@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVOrb","path":"sprites/sVOrb/sVOrb.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sVOrb",
     "tags": [],
     "resourceType": "GMSequence",

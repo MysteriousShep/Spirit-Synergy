@@ -125,7 +125,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGoblinAttack",
     "tags": [],
     "resourceType": "GMSequence",

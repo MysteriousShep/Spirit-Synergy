@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVorm","path":"sprites/sVorm/sVorm.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sVorm",
     "tags": [],
     "resourceType": "GMSequence",

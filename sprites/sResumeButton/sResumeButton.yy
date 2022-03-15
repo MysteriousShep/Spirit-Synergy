@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sResumeButton","path":"sprites/sResumeButton/sResumeButton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sResumeButton",
     "tags": [],
     "resourceType": "GMSequence",

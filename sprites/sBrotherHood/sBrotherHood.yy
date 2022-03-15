@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBrotherHood","path":"sprites/sBrotherHood/sBrotherHood.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBrotherHood",
     "tags": [],
     "resourceType": "GMSequence",

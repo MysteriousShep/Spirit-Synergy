@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Symbiosis_Game_Art_1_png","path":"sprites/Symbiosis_Game_Art_1_png/Symbiosis_Game_Art_1_png.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Symbiosis_Game_Art_1_png",
     "tags": [],
     "resourceType": "GMSequence",

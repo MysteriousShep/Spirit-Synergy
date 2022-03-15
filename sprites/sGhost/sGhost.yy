@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGhost","path":"sprites/sGhost/sGhost.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGhost",
     "tags": [],
     "resourceType": "GMSequence",

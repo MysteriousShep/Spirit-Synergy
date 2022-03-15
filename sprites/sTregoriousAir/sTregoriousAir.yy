@@ -65,7 +65,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTregoriousAir","path":"sprites/sTregoriousAir/sTregoriousAir.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sTregoriousAir",
     "tags": [],
     "resourceType": "GMSequence",
