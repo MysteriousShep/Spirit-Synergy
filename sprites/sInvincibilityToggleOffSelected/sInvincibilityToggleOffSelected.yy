@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sInvincibilityToggleOffSelected","path":"sprites/sInvincibilityToggleOffSelected/sInvincibilityToggleOffSelected.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sInvincibilityToggleOffSelected",
     "tags": [],
     "resourceType": "GMSequence",

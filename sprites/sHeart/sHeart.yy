@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sHeart","path":"sprites/sHeart/sHeart.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sHeart",
     "tags": [],
     "resourceType": "GMSequence",

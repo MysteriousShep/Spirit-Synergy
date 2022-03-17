@@ -151,7 +151,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyAttackPlaceholder","path":"sprites/sFinleyAttackPlaceholder/sFinleyAttackPlaceholder.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sFinleyAttackPlaceholder",
     "tags": [],
     "resourceType": "GMSequence",

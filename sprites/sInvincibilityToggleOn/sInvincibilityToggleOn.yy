@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sInvincibilityToggleOn","path":"sprites/sInvincibilityToggleOn/sInvincibilityToggleOn.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sInvincibilityToggleOn",
     "tags": [],
     "resourceType": "GMSequence",

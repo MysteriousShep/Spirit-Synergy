@@ -68,7 +68,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCoverArt","path":"sprites/sCoverArt/sCoverArt.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sCoverArt",
     "tags": [],
     "resourceType": "GMSequence",

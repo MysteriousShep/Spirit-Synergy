@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyDash30","path":"sprites/sFinleyDash30/sFinleyDash30.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sFinleyDash",
     "tags": [],
     "resourceType": "GMSequence",

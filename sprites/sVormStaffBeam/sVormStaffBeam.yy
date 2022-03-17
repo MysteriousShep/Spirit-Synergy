@@ -143,7 +143,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVormStaffBeam","path":"sprites/sVormStaffBeam/sVormStaffBeam.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sVormStaffBeam",
     "tags": [],
     "resourceType": "GMSequence",

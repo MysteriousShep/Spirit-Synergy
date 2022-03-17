@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sRock","path":"sprites/sRock/sRock.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sRock",
     "tags": [],
     "resourceType": "GMSequence",

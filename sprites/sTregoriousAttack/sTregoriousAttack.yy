@@ -255,7 +255,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTregoriousAttack","path":"sprites/sTregoriousAttack/sTregoriousAttack.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sTregoriousAttack",
     "tags": [],
     "resourceType": "GMSequence",

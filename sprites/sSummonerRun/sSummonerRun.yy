@@ -85,7 +85,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSummonerRun","path":"sprites/sSummonerRun/sSummonerRun.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sSummonerRun",
     "tags": [],
     "resourceType": "GMSequence",

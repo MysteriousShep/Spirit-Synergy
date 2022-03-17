@@ -61,7 +61,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGhostProjectileBarrier","path":"sprites/sGhostProjectileBarrier/sGhostProjectileBarrier.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sGhostProjectileBarrier",
     "tags": [],
     "resourceType": "GMSequence",

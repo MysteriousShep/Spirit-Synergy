@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStartButtonSelcted","path":"sprites/sStartButtonSelcted/sStartButtonSelcted.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sStartButtonSelcted",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGameOver","path":"sprites/sGameOver/sGameOver.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sGameOver",
     "tags": [],
     "resourceType": "GMSequence",

@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sWallJumpBossProjectile","path":"sprites/sWallJumpBossProjectile/sWallJumpBossProjectile.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sWallJumpBossProjectile",
     "tags": [],
     "resourceType": "GMSequence",

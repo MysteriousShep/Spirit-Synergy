@@ -175,7 +175,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sWallJumpBossPlaceholderDash","path":"sprites/sWallJumpBossPlaceholderDash/sWallJumpBossPlaceholderDash.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sWallJumpBossPlaceholderDash",
     "tags": [],
     "resourceType": "GMSequence",

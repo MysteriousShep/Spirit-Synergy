@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStalags","path":"sprites/sStalags/sStalags.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sStalags",
     "tags": [],
     "resourceType": "GMSequence",

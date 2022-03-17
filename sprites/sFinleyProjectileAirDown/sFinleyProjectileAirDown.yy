@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyProjectileAirDown","path":"sprites/sFinleyProjectileAirDown/sFinleyProjectileAirDown.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sFinleyProjectileAirDown",
     "tags": [],
     "resourceType": "GMSequence",

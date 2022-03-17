@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"nightsky","path":"sprites/nightsky/nightsky.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "nightsky",
     "tags": [],
     "resourceType": "GMSequence",

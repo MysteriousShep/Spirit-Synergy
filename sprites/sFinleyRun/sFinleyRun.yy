@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyRun","path":"sprites/sFinleyRun/sFinleyRun.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sFinleyRun",
     "tags": [],
     "resourceType": "GMSequence",

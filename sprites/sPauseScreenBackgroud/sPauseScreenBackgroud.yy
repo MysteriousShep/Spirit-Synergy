@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPauseScreenBackgroud","path":"sprites/sPauseScreenBackgroud/sPauseScreenBackgroud.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sPauseScreenBackgroud",
     "tags": [],
     "resourceType": "GMSequence",

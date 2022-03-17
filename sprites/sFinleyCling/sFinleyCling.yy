@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyCling","path":"sprites/sFinleyCling/sFinleyCling.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sFinleyCling",
     "tags": [],
     "resourceType": "GMSequence",

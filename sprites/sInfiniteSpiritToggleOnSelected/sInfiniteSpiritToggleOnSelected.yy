@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sInfiniteSpiritToggleOnSelected","path":"sprites/sInfiniteSpiritToggleOnSelected/sInfiniteSpiritToggleOnSelected.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sInfiniteSpiritToggleOnSelected",
     "tags": [],
     "resourceType": "GMSequence",

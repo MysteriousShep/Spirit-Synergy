@@ -205,7 +205,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sWallJumpBossPlaceholderAttack","path":"sprites/sWallJumpBossPlaceholderAttack/sWallJumpBossPlaceholderAttack.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sWallJumpBossPlaceholderAttack",
     "tags": [],
     "resourceType": "GMSequence",

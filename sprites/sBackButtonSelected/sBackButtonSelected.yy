@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBackButtonSelected","path":"sprites/sBackButtonSelected/sBackButtonSelected.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sBackButtonSelected",
     "tags": [],
     "resourceType": "GMSequence",

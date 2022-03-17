@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sEnemyBarrier","path":"sprites/sEnemyBarrier/sEnemyBarrier.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sEnemyBarrier",
     "tags": [],
     "resourceType": "GMSequence",

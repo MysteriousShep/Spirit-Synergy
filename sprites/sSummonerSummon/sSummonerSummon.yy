@@ -100,7 +100,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSummonerSummon","path":"sprites/sSummonerSummon/sSummonerSummon.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sSummonerSummon",
     "tags": [],
     "resourceType": "GMSequence",

@@ -263,7 +263,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTregoriousDash","path":"sprites/sTregoriousDash/sTregoriousDash.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sTregoriousDash",
     "tags": [],
     "resourceType": "GMSequence",

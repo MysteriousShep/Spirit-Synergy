@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSpiritBarInfinite","path":"sprites/sSpiritBarInfinite/sSpiritBarInfinite.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sSpiritBarInfinite",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCheatsButtonSelected","path":"sprites/sCheatsButtonSelected/sCheatsButtonSelected.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sCheatsButtonSelected",
     "tags": [],
     "resourceType": "GMSequence",

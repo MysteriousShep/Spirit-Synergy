@@ -103,7 +103,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyShieldBreakerHitBox","path":"sprites/sFinleyShieldBreakerHitBox/sFinleyShieldBreakerHitBox.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sFinleyShieldBreakerHitBox",
     "tags": [],
     "resourceType": "GMSequence",

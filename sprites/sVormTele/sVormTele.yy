@@ -223,7 +223,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sVormTele","path":"sprites/sVormTele/sVormTele.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sVormTele",
     "tags": [],
     "resourceType": "GMSequence",

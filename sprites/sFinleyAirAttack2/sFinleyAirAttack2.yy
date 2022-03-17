@@ -135,7 +135,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyAirAttack2","path":"sprites/sFinleyAirAttack2/sFinleyAirAttack2.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sFinleyAirAttack2",
     "tags": [],
     "resourceType": "GMSequence",

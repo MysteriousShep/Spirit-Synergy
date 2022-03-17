@@ -115,7 +115,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sArmorAttack","path":"sprites/sArmorAttack/sArmorAttack.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sArmorAttack",
     "tags": [],
     "resourceType": "GMSequence",

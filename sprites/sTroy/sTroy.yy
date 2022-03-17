@@ -110,7 +110,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTroy","path":"sprites/sTroy/sTroy.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sTroy",
     "tags": [],
     "resourceType": "GMSequence",

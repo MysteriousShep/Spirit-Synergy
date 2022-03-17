@@ -140,7 +140,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGhostCircle","path":"sprites/sGhostCircle/sGhostCircle.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sGhostCircle",
     "tags": [],
     "resourceType": "GMSequence",

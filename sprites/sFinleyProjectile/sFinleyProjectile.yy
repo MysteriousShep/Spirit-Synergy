@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyProjectile","path":"sprites/sFinleyProjectile/sFinleyProjectile.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sFinleyProjectile",
     "tags": [],
     "resourceType": "GMSequence",

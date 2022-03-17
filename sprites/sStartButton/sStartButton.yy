@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStartButton","path":"sprites/sStartButton/sStartButton.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sStartButton",
     "tags": [],
     "resourceType": "GMSequence",

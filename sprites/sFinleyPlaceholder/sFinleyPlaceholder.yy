@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyPlaceholder","path":"sprites/sFinleyPlaceholder/sFinleyPlaceholder.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sFinleyPlaceholder",
     "tags": [],
     "resourceType": "GMSequence",

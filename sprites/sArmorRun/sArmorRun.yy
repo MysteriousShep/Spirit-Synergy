@@ -111,7 +111,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sArmorRun","path":"sprites/sArmorRun/sArmorRun.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sArmorRun",
     "tags": [],
     "resourceType": "GMSequence",

@@ -145,7 +145,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyShieldBreaker","path":"sprites/sFinleyShieldBreaker/sFinleyShieldBreaker.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sFinleyShieldBreaker",
     "tags": [],
     "resourceType": "GMSequence",

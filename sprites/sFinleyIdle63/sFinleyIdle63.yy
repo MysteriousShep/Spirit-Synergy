@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyIdle63","path":"sprites/sFinleyIdle63/sFinleyIdle63.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sFinleyIdle",
     "tags": [],
     "resourceType": "GMSequence",

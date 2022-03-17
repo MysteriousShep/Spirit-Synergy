@@ -61,7 +61,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTregorious","path":"sprites/sTregorious/sTregorious.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sTregorious",
     "tags": [],
     "resourceType": "GMSequence",
