@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 24,
+  "bbox_right": 319,
   "bbox_top": 0,
-  "bbox_bottom": 30,
+  "bbox_bottom": 175,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 25,
-  "height": 31,
+  "width": 320,
+  "height": 176,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f08049e9-de84-489a-85ba-607aee40d953","path":"sprites/sMovePrompt/sMovePrompt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f08049e9-de84-489a-85ba-607aee40d953","path":"sprites/sMovePrompt/sMovePrompt.yy",},"LayerId":{"name":"4ebdcfc9-bdd3-4c3c-92d2-9c862cbc7831","path":"sprites/sMovePrompt/sMovePrompt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sMovePrompt","path":"sprites/sMovePrompt/sMovePrompt.yy",},"resourceVersion":"1.0","name":"f08049e9-de84-489a-85ba-607aee40d953","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6d441692-70b1-4235-9e6d-5b1259e2ad08","path":"sprites/sBackgrounds_3_3/sBackgrounds_3_3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6d441692-70b1-4235-9e6d-5b1259e2ad08","path":"sprites/sBackgrounds_3_3/sBackgrounds_3_3.yy",},"LayerId":{"name":"aec012d1-34e3-4743-afc2-045af5604eb9","path":"sprites/sBackgrounds_3_3/sBackgrounds_3_3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBackgrounds_3_3","path":"sprites/sBackgrounds_3_3/sBackgrounds_3_3.yy",},"resourceVersion":"1.0","name":"6d441692-70b1-4235-9e6d-5b1259e2ad08","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sMovePrompt","path":"sprites/sMovePrompt/sMovePrompt.yy",},
+    "spriteId": {"name":"sBackgrounds_3_3","path":"sprites/sBackgrounds_3_3/sBackgrounds_3_3.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 1.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b964c995-ee9e-4b09-97d3-2a6378a32e04","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f08049e9-de84-489a-85ba-607aee40d953","path":"sprites/sMovePrompt/sMovePrompt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4d2bba2f-b39c-4885-87d7-ea02ed728906","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d441692-70b1-4235-9e6d-5b1259e2ad08","path":"sprites/sBackgrounds_3_3/sBackgrounds_3_3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sMovePrompt","path":"sprites/sMovePrompt/sMovePrompt.yy",},
+    "parent": {"name":"sBackgrounds_3_3","path":"sprites/sBackgrounds_3_3/sBackgrounds_3_3.yy",},
     "resourceVersion": "1.4",
-    "name": "sMovePrompt",
+    "name": "sBackgrounds_3_3",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4ebdcfc9-bdd3-4c3c-92d2-9c862cbc7831","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aec012d1-34e3-4743-afc2-045af5604eb9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sMovePrompt",
+  "name": "sBackgrounds_3_3",
   "tags": [],
   "resourceType": "GMSprite",
 }

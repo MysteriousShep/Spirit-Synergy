@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 24,
+  "bbox_right": 52,
   "bbox_top": 0,
   "bbox_bottom": 30,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 25,
+  "width": 53,
   "height": 31,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f08049e9-de84-489a-85ba-607aee40d953","path":"sprites/sMovePrompt/sMovePrompt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f08049e9-de84-489a-85ba-607aee40d953","path":"sprites/sMovePrompt/sMovePrompt.yy",},"LayerId":{"name":"4ebdcfc9-bdd3-4c3c-92d2-9c862cbc7831","path":"sprites/sMovePrompt/sMovePrompt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sMovePrompt","path":"sprites/sMovePrompt/sMovePrompt.yy",},"resourceVersion":"1.0","name":"f08049e9-de84-489a-85ba-607aee40d953","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"28976608-35b8-4680-a456-8e5ec3cc0915","path":"sprites/sMoveAttackPrompt/sMoveAttackPrompt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"28976608-35b8-4680-a456-8e5ec3cc0915","path":"sprites/sMoveAttackPrompt/sMoveAttackPrompt.yy",},"LayerId":{"name":"4ebdcfc9-bdd3-4c3c-92d2-9c862cbc7831","path":"sprites/sMoveAttackPrompt/sMoveAttackPrompt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sMoveAttackPrompt","path":"sprites/sMoveAttackPrompt/sMoveAttackPrompt.yy",},"resourceVersion":"1.0","name":"28976608-35b8-4680-a456-8e5ec3cc0915","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sMovePrompt","path":"sprites/sMovePrompt/sMovePrompt.yy",},
+    "spriteId": {"name":"sMoveAttackPrompt","path":"sprites/sMoveAttackPrompt/sMoveAttackPrompt.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b964c995-ee9e-4b09-97d3-2a6378a32e04","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f08049e9-de84-489a-85ba-607aee40d953","path":"sprites/sMovePrompt/sMovePrompt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"353c512f-cc6f-475d-83c1-57aa7a8cc8b8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28976608-35b8-4680-a456-8e5ec3cc0915","path":"sprites/sMoveAttackPrompt/sMoveAttackPrompt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sMovePrompt","path":"sprites/sMovePrompt/sMovePrompt.yy",},
+    "parent": {"name":"sMoveAttackPrompt","path":"sprites/sMoveAttackPrompt/sMoveAttackPrompt.yy",},
     "resourceVersion": "1.4",
-    "name": "sMovePrompt",
+    "name": "sMoveAttackPrompt",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sMovePrompt",
+  "name": "sMoveAttackPrompt",
   "tags": [],
   "resourceType": "GMSprite",
 }
