@@ -142,17 +142,17 @@ var move = key_right - key_left
 	//Horizontal Collision
 	
 	if not noClip {
-	if (place_meeting(x+hsp,y,oWall) or place_meeting(x+hsp,y,oEnemyBarrier)) 
+	if (place_meeting(x+hsp,y,oWall) or place_meeting(x+hsp,y,oEnemyBarrier) or place_meeting(x+hsp,y,oTargetDoor)) 
 	{
 	
 		repeat(8)
 		{
-			if (place_meeting(x+hsp, y, oWall) or place_meeting(x+hsp,y,oEnemyBarrier)) y -= 1;
+			if (place_meeting(x+hsp, y, oWall) or place_meeting(x+hsp,y,oEnemyBarrier) or place_meeting(x+hsp,y,oTargetDoor)) y -= 1;
 		}
 	
-		if (place_meeting(x+hsp, y, oWall) or place_meeting(x+hsp,y,oEnemyBarrier))
+		if (place_meeting(x+hsp, y, oWall) or place_meeting(x+hsp,y,oEnemyBarrier) or place_meeting(x+hsp,y,oTargetDoor))
 		{
-			while (!place_meeting(x+sign(hsp),y,oWall) and !place_meeting(x+sign(hsp),y,oEnemyBarrier))
+			while (!place_meeting(x+sign(hsp),y,oWall) and !place_meeting(x+sign(hsp),y,oEnemyBarrier) and !place_meeting(x+sign(hsp),y,oTargetDoor))
 			{
 				x = x + sign(hsp);
 			}

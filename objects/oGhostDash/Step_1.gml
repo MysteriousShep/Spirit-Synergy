@@ -19,9 +19,9 @@ if (place_meeting(x,y+vspd,oWall) or place_meeting(x,y+vspd,oEnemyBarrier))
 }
 y += vspd;
 
-if (place_meeting(x+hspd,y,oWall) or place_meeting(x+hspd,y,oEnemyBarrier))
+if (place_meeting(x+hspd,y,oWall) or place_meeting(x+hspd,y,oEnemyBarrier) or place_meeting(x+hspd,y,oTargetDoor))
 {
-	while (!place_meeting(x+sign(hspd),y,oWall) and !place_meeting(x+sign(hspd),y,oEnemyBarrier))
+	while (!place_meeting(x+sign(hspd),y,oWall) and !place_meeting(x+sign(hspd),y,oEnemyBarrier) and !place_meeting(x+sign(hspd),y,oTargetDoor))
 	{
 		x = x + sign(hspd)
 	}	
