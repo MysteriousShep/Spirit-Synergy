@@ -9,7 +9,7 @@ if not global.pause {
 	} else {
 		key_left = false
 		key_right = false
-		if irandom_range(1,60) = 1 and attackFrame < 0 {
+		if irandom_range(1,480) < abs(attackFrame) and attackFrame < -120 {
 			attackFrame = 60
 			image_index = 0
 			if oPlayer.x < x {

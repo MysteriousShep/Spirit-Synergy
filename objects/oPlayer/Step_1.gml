@@ -14,6 +14,20 @@ if iframes <= 0 and not godMode and state != "dash" {
 			hasWallJump = false
 		}
 	}
+	if place_meeting(x,y,oGoblinArrow) {
+		hp -= 1
+		iframes = 30
+		instance_destroy(oGoblinArrow)
+		if hp <= 0 {
+			room_goto(Room_GameOver)
+			grv = 0
+			walksp = 0
+			hasDash = false
+			hasProjectile = false
+			hasShieldBreak = false
+			hasWallJump = false
+		}
+	}
 
 	if place_meeting(x,y,oWallJumpBoss) and oWallJumpBoss.state = "dash" and oWallJumpBoss.image_index > 10 and oWallJumpBoss.image_index < 17 {
 		hp -= 4
