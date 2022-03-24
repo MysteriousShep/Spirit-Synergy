@@ -120,7 +120,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGhostProjectileRed","path":"sprites/sGhostProjectileRed/sGhostProjectileRed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sGhostProjectileRed",
     "tags": [],
     "resourceType": "GMSequence",

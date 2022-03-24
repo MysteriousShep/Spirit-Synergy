@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sInfiniteSpiritToggleOn","path":"sprites/sInfiniteSpiritToggleOn/sInfiniteSpiritToggleOn.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sInfiniteSpiritToggleOn",
     "tags": [],
     "resourceType": "GMSequence",

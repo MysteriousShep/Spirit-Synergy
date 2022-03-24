@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNPC1","path":"sprites/sNPC1/sNPC1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNPC1",
     "tags": [],
     "resourceType": "GMSequence",

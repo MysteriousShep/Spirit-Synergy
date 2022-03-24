@@ -121,7 +121,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sArmorDie","path":"sprites/sArmorDie/sArmorDie.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sArmorDie",
     "tags": [],
     "resourceType": "GMSequence",

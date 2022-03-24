@@ -215,7 +215,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sDemoBlock","path":"sprites/sDemoBlock/sDemoBlock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sDemoBlock",
     "tags": [],
     "resourceType": "GMSequence",

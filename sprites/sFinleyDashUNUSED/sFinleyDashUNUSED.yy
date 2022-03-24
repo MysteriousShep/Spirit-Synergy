@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyDashUNUSED","path":"sprites/sFinleyDashUNUSED/sFinleyDashUNUSED.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFinleyDashUNUSED",
     "tags": [],
     "resourceType": "GMSequence",

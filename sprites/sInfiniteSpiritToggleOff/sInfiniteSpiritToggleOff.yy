@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sInfiniteSpiritToggleOff","path":"sprites/sInfiniteSpiritToggleOff/sInfiniteSpiritToggleOff.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sInfiniteSpiritToggleOff",
     "tags": [],
     "resourceType": "GMSequence",

@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sDingoDuo","path":"sprites/sDingoDuo/sDingoDuo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sDingoDuo",
     "tags": [],
     "resourceType": "GMSequence",

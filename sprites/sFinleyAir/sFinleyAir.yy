@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyAir","path":"sprites/sFinleyAir/sFinleyAir.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFinleyAir",
     "tags": [],
     "resourceType": "GMSequence",

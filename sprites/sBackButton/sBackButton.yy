@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBackButton","path":"sprites/sBackButton/sBackButton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBackButton",
     "tags": [],
     "resourceType": "GMSequence",

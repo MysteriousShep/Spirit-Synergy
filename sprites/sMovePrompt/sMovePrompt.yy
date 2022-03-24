@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sMovePrompt","path":"sprites/sMovePrompt/sMovePrompt.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sMovePrompt",
     "tags": [],
     "resourceType": "GMSequence",

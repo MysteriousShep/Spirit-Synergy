@@ -105,7 +105,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sOgreRun","path":"sprites/sOgreRun/sOgreRun.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sOgreRun",
     "tags": [],
     "resourceType": "GMSequence",

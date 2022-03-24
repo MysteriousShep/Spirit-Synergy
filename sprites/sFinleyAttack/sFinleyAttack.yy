@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sFinleyAttack","path":"sprites/sFinleyAttack/sFinleyAttack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sFinleyAttack",
     "tags": [],
     "resourceType": "GMSequence",

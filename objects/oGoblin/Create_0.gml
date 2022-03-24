@@ -1,14 +1,16 @@
-/// @description Insert description here
-// You can write your code in this editor
 
+
+
+
+hp = 5
+key_left = false
+key_right = false
+key_jump = false
+hasWallJump = false
+wallJumpCooldown = 0
 hsp = 0
 vsp = 0
-grv = 0.3
-walksp = 0.5
-
-
-hp = 4
-flash = 0 
-
-move_left = true
-move_right = false
+walksp = 4
+stunFrame = 0
+iframes = 0
+attackFrame = 0

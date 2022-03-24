@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTR0XIdle","path":"sprites/sTR0XIdle/sTR0XIdle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sTR0XIdle",
     "tags": [],
     "resourceType": "GMSequence",

@@ -79,7 +79,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sNPCIdlePlaceholder","path":"sprites/sNPCIdlePlaceholder/sNPCIdlePlaceholder.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sNPCIdlePlaceholder",
     "tags": [],
     "resourceType": "GMSequence",

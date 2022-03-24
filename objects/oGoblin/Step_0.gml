@@ -1,82 +1,68 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-if (abs(oPlayer.x-x) < 50.5) {
-	if (oPlayer.x > x) {
-		move_left = false
-		move_right = false
+if not global.pause {
+	if oPlayer.x < x and abs(oPlayer.x-x) < 200 {
+		key_left = false
+		key_right = true
+	} else if abs(oPlayer.x-x) < 200 {
+		key_left = true
+		key_right = false
+	} else {
+		key_left = false
+		key_right = false
+		if irandom_range(1,60) = 1 and attackFrame < 0 {
+			attackFrame = 60
+			image_index = 0
+			if oPlayer.x < x {
+				image_xscale = -4
+			} else {
+				image_xscale = 4
+			}
+		}
 	}
-}
-
-
-//REMEMBER TO ADD VELOCITY
-if (abs(oPlayer.x-x) < 300.5) {
-	if (oPlayer.x > x){
-		move_left = false
-		move_right = true
+	if attackFrame = 15 instance_create_depth(x+4*sign(image_xscale),y-28,1,oGoblinArrow)
+	if stunFrame > 0 {
+		x = stunX
+		y = stunY
+		x += random_range(-10,10)
+		y += random_range(-3,3)
+	} else {
+		stunX = x
+		stunY = y
 	}
-	else
-	{
-		move_left = true
-		move_right = false
+
+	if iframes <= 0 {
+		image_alpha = 1
 	}
-}
-else {
-	move_left = false
-	move_right = false
-}
-
-var move = move_right - move_left
-
-hsp += move * walksp
-
-vsp = vsp + grv
-
-//Horizontal Collision
-if (place_meeting(x+hsp,y,oWall))
-{
-	while (!place_meeting(x+sign(hsp),y,oWall))
-	{
-		x = x + sign(hsp)
-	}	
-	hsp = 0
-}
-
-x = x + hsp
-
-
-//Vertical Collision
-if (place_meeting(x,y+vsp,oWall))
-{
-	while (!place_meeting(x,y+sign(vsp),oWall))
-	{
-		y = y + sign(vsp)
-	}	
-	vsp = 0
-}
-
-y = y + vsp
-
-
-if (!place_meeting(x,y+1,oWall))
-{
-	sprite_index = sGoblin
+	stunFrame -= 1
+	if stunFrame == 0 {
+		x = stunX
+		y = stunY
+	}
+	iframes -= 1
+	if stunFrame <= 0 {
+		if attackFrame <= 0 enemy_ai(0.5,0.3,21,true,0.8)
+		attackFrame -= 1
+		image_speed = 1
+		if attackFrame >= 0 {
+			sprite_index = sGoblinAttack
+		} else {
+			if (abs(hsp) <= 0.5)
+			{
+				sprite_index = sGoblinRun
+				image_speed = 0
+				image_index = 0
+			}
+			else
+			{
+				sprite_index = sGoblinRun
+				image_speed = walksp/4
+			}
+			if hsp != 0 image_xscale = sign(hsp)*4
+		}
+	}
+	else {
+		image_speed = 0
+	}
+} else {
 	image_speed = 0
-	if (sign(vsp) > 0) image_index = 1 else image_index = 0
 }
-else
-{
-	image_speed = 1
-	if (hsp == 0)
-	{
-		sprite_index = sGoblin
-	}
-	else
-	{
-		sprite_index = sGoblinRun	
-	}
-}
-
-if (hsp != 0) image_xscale = sign(hsp)*4
-
-hsp *= 0.95
