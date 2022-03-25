@@ -69,7 +69,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Weapon","resourceVersion":"1.0","name":"79c6e2d6-6ece-4f8f-8d51-49e7d9feff0b","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Goblin","resourceVersion":"1.0","name":"cb3158e2-c62a-4d3d-b7e9-01ef3866673f","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":75.0,"displayName":"default","resourceVersion":"1.0","name":"2ad0bb6f-de52-4826-b660-7be5d61ec205","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":50.0,"displayName":"default","resourceVersion":"1.0","name":"2ad0bb6f-de52-4826-b660-7be5d61ec205","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
