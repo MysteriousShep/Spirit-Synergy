@@ -74,6 +74,7 @@
     {"id":{"name":"sMushroom","path":"sprites/sMushroom/sMushroom.yy",},"order":26,},
     {"id":{"name":"sVormStaff","path":"sprites/sVormStaff/sVormStaff.yy",},"order":40,},
     {"id":{"name":"sVormStaffSpin","path":"sprites/sVormStaffSpin/sVormStaffSpin.yy",},"order":41,},
+    {"id":{"name":"sBackground_3_3_5","path":"sprites/sBackground_3_3_5/sBackground_3_3_5.yy",},"order":112,},
     {"id":{"name":"sSummonerSummon","path":"sprites/sSummonerSummon/sSummonerSummon.yy",},"order":36,},
     {"id":{"name":"sFinleyAirAttack2","path":"sprites/sFinleyAirAttack2/sFinleyAirAttack2.yy",},"order":38,},
     {"id":{"name":"oInfiniteSpiritToggle","path":"objects/oInfiniteSpiritToggle/oInfiniteSpiritToggle.yy",},"order":36,},
