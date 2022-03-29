@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-image_xscale = 4
-image_yscale = 4
+/// @description Set Image Scale
+if (image_xscale != 4 and image_xscale != -4) {
+	image_xscale = 4
+	image_yscale = 4
+}

@@ -1,9 +1,9 @@
 
 if not global.pause {
-	if oPlayer.x < x and abs(oPlayer.x-x) < 200 {
+	if oPlayer.x < x and abs(oPlayer.x-x) < 250 {
 		key_left = false
 		key_right = true
-	} else if abs(oPlayer.x-x) < 200 {
+	} else if abs(oPlayer.x-x) < 250 {
 		key_left = true
 		key_right = false
 	} else {

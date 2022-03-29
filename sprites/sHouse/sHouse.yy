@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cc1e745b-b910-4727-9a10-d67a2984ca5e","path":"sprites/Symbiosis_Game_Art_1_png/Symbiosis_Game_Art_1_png.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cc1e745b-b910-4727-9a10-d67a2984ca5e","path":"sprites/Symbiosis_Game_Art_1_png/Symbiosis_Game_Art_1_png.yy",},"LayerId":{"name":"e8ecb4cc-1bbe-42e4-b9a6-44a75b00985f","path":"sprites/Symbiosis_Game_Art_1_png/Symbiosis_Game_Art_1_png.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Symbiosis_Game_Art_1_png","path":"sprites/Symbiosis_Game_Art_1_png/Symbiosis_Game_Art_1_png.yy",},"resourceVersion":"1.0","name":"cc1e745b-b910-4727-9a10-d67a2984ca5e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cc1e745b-b910-4727-9a10-d67a2984ca5e","path":"sprites/sHouse/sHouse.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cc1e745b-b910-4727-9a10-d67a2984ca5e","path":"sprites/sHouse/sHouse.yy",},"LayerId":{"name":"e8ecb4cc-1bbe-42e4-b9a6-44a75b00985f","path":"sprites/sHouse/sHouse.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHouse","path":"sprites/sHouse/sHouse.yy",},"resourceVersion":"1.0","name":"cc1e745b-b910-4727-9a10-d67a2984ca5e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Symbiosis_Game_Art_1_png","path":"sprites/Symbiosis_Game_Art_1_png/Symbiosis_Game_Art_1_png.yy",},
+    "spriteId": {"name":"sHouse","path":"sprites/sHouse/sHouse.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1a245215-8b90-44a8-b72b-7205d4ede6c9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc1e745b-b910-4727-9a10-d67a2984ca5e","path":"sprites/Symbiosis_Game_Art_1_png/Symbiosis_Game_Art_1_png.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1a245215-8b90-44a8-b72b-7205d4ede6c9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc1e745b-b910-4727-9a10-d67a2984ca5e","path":"sprites/sHouse/sHouse.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Symbiosis_Game_Art_1_png","path":"sprites/Symbiosis_Game_Art_1_png/Symbiosis_Game_Art_1_png.yy",},
+    "parent": {"name":"sHouse","path":"sprites/sHouse/sHouse.yy",},
     "resourceVersion": "1.4",
-    "name": "Symbiosis_Game_Art_1_png",
+    "name": "sHouse",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Symbiosis_Game_Art_1_png",
+  "name": "sHouse",
   "tags": [],
   "resourceType": "GMSprite",
 }
