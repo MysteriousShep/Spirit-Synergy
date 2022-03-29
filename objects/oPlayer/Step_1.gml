@@ -1,17 +1,14 @@
 
-if iframes <= 0 and not godMode and state != "dash" {
+if iframes <= 0 and not godMode and state != "dash" and not global.pause {
 	if place_meeting(x,y,oWallJumpBossOrb) {
 		hp -= 2
 		iframes = 30
 		instance_destroy(oWallJumpBossOrb)
 		if hp <= 0 {
 			room_goto(Room_GameOver)
-			grv = 0
-			walksp = 0
-			hasDash = false
-			hasProjectile = false
-			hasShieldBreak = false
-			hasWallJump = false
+			global.pause = true
+			instance_create_depth(x,y,-401,oGameOverAnim)
+			iframes = 0
 		}
 	}
 	if place_meeting(x,y,oGoblinArrow) {
@@ -19,13 +16,9 @@ if iframes <= 0 and not godMode and state != "dash" {
 		iframes = 30
 		instance_destroy(oGoblinArrow)
 		if hp <= 0 {
-			room_goto(Room_GameOver)
-			grv = 0
-			walksp = 0
-			hasDash = false
-			hasProjectile = false
-			hasShieldBreak = false
-			hasWallJump = false
+			global.pause = true
+			instance_create_depth(x,y,-401,oGameOverAnim)
+			iframes = 0
 		}
 	}
 
@@ -33,14 +26,9 @@ if iframes <= 0 and not godMode and state != "dash" {
 		hp -= 4
 		iframes = 30
 		if hp <= 0 {
-			room_goto(Room_GameOver)
-			grv = 0
-			walksp = 0
-			hasDash = false
-			hasProjectile = false
-			hasShieldBreak = false
-			hasWallJump = false
-			
+			global.pause = true
+			instance_create_depth(x,y,-401,oGameOverAnim)
+			iframes = 0
 		}
 	}
 }

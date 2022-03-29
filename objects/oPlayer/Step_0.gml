@@ -1,7 +1,7 @@
 if not global.pause and not framesUntilControlable > 0 {
 iframes -= 1
 image_alpha = max(0,min(1,1-iframes/30))
-
+if room  != Room_GameOver {
 //Get player input, unless dashing
 switch(state) {
 	case("free"):
@@ -212,7 +212,7 @@ if state = "dash" and instance_exists(oGhostDash) {
 	x = oGhostDash.x
 	y = oGhostDash.y
 }
-if room  != Room_GameOver {
+
 //Animation
 if (!place_meeting(x,y+1,oWall))
 {

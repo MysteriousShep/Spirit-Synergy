@@ -65,6 +65,8 @@
     {"id":{"name":"sTregoriousAttack","path":"sprites/sTregoriousAttack/sTregoriousAttack.yy",},"order":57,},
     {"id":{"name":"sGhostProjectileBarrier","path":"sprites/sGhostProjectileBarrier/sGhostProjectileBarrier.yy",},"order":68,},
     {"id":{"name":"lEnemyAi","path":"scripts/lEnemyAi/lEnemyAi.yy",},"order":1,},
+    {"id":{"name":"oGameOverAnim","path":"objects/oGameOverAnim/oGameOverAnim.yy",},"order":47,},
+    {"id":{"name":"sGameOverAnim","path":"sprites/sGameOverAnim/sGameOverAnim.yy",},"order":113,},
     {"id":{"name":"Room_1_2","path":"rooms/Room_1_2/Room_1_2.yy",},"order":3,},
     {"id":{"name":"sResumeButtonSelected","path":"sprites/sResumeButtonSelected/sResumeButtonSelected.yy",},"order":76,},
     {"id":{"name":"sMushroom","path":"sprites/sMushroom/sMushroom.yy",},"order":26,},
