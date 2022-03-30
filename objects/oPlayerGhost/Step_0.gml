@@ -19,34 +19,19 @@ if place_meeting(x+hsp,y,oWallJumpBoss) {
 	with oWallJumpBoss {
 		if iframes <= 0 {
 			other.hsp *= 0.75
-	hp -= 1
-	image_alpha = 0.5
-	iframes = 20
-	stunFrame = 5
-	if hp <= 0 {
-		instance_destroy(self)
+		}
 	}
 }
 
-
-		
-	}
-}
 if place_meeting(x,y+vsp,oWallJumpBoss) {
 	
 	
 	with oWallJumpBoss {
 			if iframes <= 0 {
 				other.vsp *= 0.75
-	hp -= 1
-	image_alpha = 0.5
-	iframes = 20
-	stunFrame = 5
-	if hp <= 0 {
-		instance_destroy(self)
-	}
+	
 		
-	}
+			}
 	}
 }
 	}

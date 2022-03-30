@@ -304,11 +304,6 @@ if (frame <= 0) {
 } else {
 	image_speed = 0
 	image_blend = c_black
-	if is_controller {
-		if gamepad_button_check_pressed(pad_num, gp_face3) {
-			game_restart()
-		}
-	}
 }
 if (hsp != 0) image_xscale = sign(hsp)*4
 

@@ -137,3 +137,16 @@ switch(currentMenu) {
 		}
 }
 delay -= 1
+if (room = Room_GameOver) {
+	if is_controller {
+		if gamepad_button_check_pressed(pad_num,gp_face3) {
+			instance_destroy(oPlayer)
+			instance_destroy(oSpiritBar)
+			instance_destroy(oHealth)
+			room_goto(Room_1_3)
+			buttons = pauseButtons
+			currentMenu = "none"
+		}
+	}
+}
+

@@ -1,5 +1,5 @@
 if not global.pause {
-if stunFrame > 0 {
+if stunFrame > 0 and stunFrame > -998 {
 	x = stunX
 	y = stunY
 	x += random_range(-10,10)
@@ -12,13 +12,15 @@ if stunFrame > 0 {
 if iframes <= 0 {
 	image_alpha = 1
 }
-stunFrame -= 1
+if stunFrame > -998 {
+	stunFrame -= 1
+}
 if stunFrame == 0 {
 	x = stunX
 	y = stunY
 }
 iframes -= 1
-if stunFrame <= 0 {
+if stunFrame <= 0 and stunFrame > -999{
 switch(state) {
 	case("free"):
 		key_left = false
