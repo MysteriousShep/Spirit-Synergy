@@ -5,7 +5,6 @@ if iframes <= 0 and not godMode and state != "dash" and not global.pause {
 		iframes = 30
 		instance_destroy(oWallJumpBossOrb)
 		if hp <= 0 {
-			room_goto(Room_GameOver)
 			global.pause = true
 			instance_create_depth(x,y,-401,oGameOverAnim)
 			iframes = 0
