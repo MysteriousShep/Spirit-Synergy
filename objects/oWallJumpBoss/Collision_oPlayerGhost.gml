@@ -8,5 +8,6 @@ if iframes <= 0 {
 		iframes = 1000
 		image_alpha = 1
 		stunFrame = -1000
+		instance_destroy(oWallJumpBossOrb)
 	}
 }
