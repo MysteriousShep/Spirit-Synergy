@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sPauseScreenBackgroud",
-    "path": "sprites/sPauseScreenBackgroud/sPauseScreenBackgroud.yy",
+    "name": "sWallJumpParticle",
+    "path": "sprites/sWallJumpParticle/sWallJumpParticle.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPlayerAbsorb",
+  "name": "oWallJumpGiver",
   "tags": [],
   "resourceType": "GMObject",
 }

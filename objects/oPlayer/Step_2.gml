@@ -18,3 +18,7 @@ if room != Room_GameOver {
 		y = 20
 	}
 }
+
+if keyboard_check_pressed(vk_f6) {
+	room_goto(Room_2_5)
+}
