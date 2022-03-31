@@ -135,6 +135,7 @@
     {"id":{"name":"sTargetDoor","path":"sprites/sTargetDoor/sTargetDoor.yy",},"order":107,},
     {"id":{"name":"oBanana","path":"objects/oBanana/oBanana.yy",},"order":2,},
     {"id":{"name":"oPlayerHitbox","path":"objects/oPlayerHitbox/oPlayerHitbox.yy",},"order":16,},
+    {"id":{"name":"sBackground_3_5","path":"sprites/sBackground_3_5/sBackground_3_5.yy",},"order":118,},
     {"id":{"name":"Room_DemoOver","path":"rooms/Room_DemoOver/Room_DemoOver.yy",},"order":16,},
     {"id":{"name":"oWallJumpBossOrb","path":"objects/oWallJumpBossOrb/oWallJumpBossOrb.yy",},"order":13,},
     {"id":{"name":"sMoveAttackPrompt","path":"sprites/sMoveAttackPrompt/sMoveAttackPrompt.yy",},"order":102,},
