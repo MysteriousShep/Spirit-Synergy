@@ -14,5 +14,5 @@ frame = 60
 hasWallJump = true
 wallJumpCooldown = 0
 cling = false
-nextAttack = "dash"
-prevAttack = state
+nextAttack = "attack"
+prevAttack = "jump1"

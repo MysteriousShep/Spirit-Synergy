@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 2,
-  "bbox_right": 16,
+  "bbox_right": 18,
   "bbox_top": 13,
   "bbox_bottom": 28,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 17,
+  "width": 19,
   "height": 29,
   "textureGroupId": {
     "name": "Default",
@@ -26,48 +26,63 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"2a6e6086-5eea-468a-9c34-108477d8e970","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"2a6e6086-5eea-468a-9c34-108477d8e970","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"2a6e6086-5eea-468a-9c34-108477d8e970","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"2a6e6086-5eea-468a-9c34-108477d8e970","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"771fe191-431a-4621-ad1f-76f2964c5e48","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"771fe191-431a-4621-ad1f-76f2964c5e48","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"771fe191-431a-4621-ad1f-76f2964c5e48","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"771fe191-431a-4621-ad1f-76f2964c5e48","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"6af87065-3bc2-4107-b670-fee15a4f52b4","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"6af87065-3bc2-4107-b670-fee15a4f52b4","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"6af87065-3bc2-4107-b670-fee15a4f52b4","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"6af87065-3bc2-4107-b670-fee15a4f52b4","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"0d42408a-30c3-45a8-b12c-33be87072f9c","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"0d42408a-30c3-45a8-b12c-33be87072f9c","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"0d42408a-30c3-45a8-b12c-33be87072f9c","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"0d42408a-30c3-45a8-b12c-33be87072f9c","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"cf04f223-c5d3-4f51-8f90-ca8bd705472d","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"cf04f223-c5d3-4f51-8f90-ca8bd705472d","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"cf04f223-c5d3-4f51-8f90-ca8bd705472d","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"cf04f223-c5d3-4f51-8f90-ca8bd705472d","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"38ee6207-fbee-4d25-8caf-594bb936a8fe","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"38ee6207-fbee-4d25-8caf-594bb936a8fe","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"38ee6207-fbee-4d25-8caf-594bb936a8fe","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"38ee6207-fbee-4d25-8caf-594bb936a8fe","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"56b34592-2976-46b3-878d-1668118541ee","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"56b34592-2976-46b3-878d-1668118541ee","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"56b34592-2976-46b3-878d-1668118541ee","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"56b34592-2976-46b3-878d-1668118541ee","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"dd3d2e7f-615d-4ddd-9c11-dfb7c43a42ad","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"dd3d2e7f-615d-4ddd-9c11-dfb7c43a42ad","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"dd3d2e7f-615d-4ddd-9c11-dfb7c43a42ad","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"dd3d2e7f-615d-4ddd-9c11-dfb7c43a42ad","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"0fd0977e-a9d3-4e74-ba13-9da8592ac95f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"0fd0977e-a9d3-4e74-ba13-9da8592ac95f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"0fd0977e-a9d3-4e74-ba13-9da8592ac95f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"0fd0977e-a9d3-4e74-ba13-9da8592ac95f","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"057ab8e0-4568-486a-af85-111494212b0a","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"057ab8e0-4568-486a-af85-111494212b0a","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"057ab8e0-4568-486a-af85-111494212b0a","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"057ab8e0-4568-486a-af85-111494212b0a","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"10859b1f-6a42-42b1-9ffa-aa12c7815409","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"10859b1f-6a42-42b1-9ffa-aa12c7815409","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"10859b1f-6a42-42b1-9ffa-aa12c7815409","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"10859b1f-6a42-42b1-9ffa-aa12c7815409","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"4393df9f-198d-4355-bc30-e006f05e15fe","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"4393df9f-198d-4355-bc30-e006f05e15fe","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"4393df9f-198d-4355-bc30-e006f05e15fe","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"4393df9f-198d-4355-bc30-e006f05e15fe","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"58067597-c32c-4fbb-9bd2-e398a72a6f9a","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"58067597-c32c-4fbb-9bd2-e398a72a6f9a","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"58067597-c32c-4fbb-9bd2-e398a72a6f9a","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"58067597-c32c-4fbb-9bd2-e398a72a6f9a","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"ae049bb0-8878-4a31-899a-201a6b9e9c46","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ae049bb0-8878-4a31-899a-201a6b9e9c46","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"ae049bb0-8878-4a31-899a-201a6b9e9c46","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"ae049bb0-8878-4a31-899a-201a6b9e9c46","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"5d56f45c-748d-4bc8-8ed8-9e6a00b05ccc","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"5d56f45c-748d-4bc8-8ed8-9e6a00b05ccc","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"631f0280-7d95-4015-96f2-d864d275041e","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"5d56f45c-748d-4bc8-8ed8-9e6a00b05ccc","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"LayerId":{"name":"7f32b613-2b03-439d-80b2-34f36b69473f","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"resourceVersion":"1.0","name":"5d56f45c-748d-4bc8-8ed8-9e6a00b05ccc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -121,6 +136,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"7f32b613-2b03-439d-80b2-34f36b69473f","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"631f0280-7d95-4015-96f2-d864d275041e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
