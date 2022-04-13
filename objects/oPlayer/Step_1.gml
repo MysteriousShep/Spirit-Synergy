@@ -30,4 +30,13 @@ if iframes <= 0 and not godMode and state != "dash" and not global.pause {
 			iframes = 0
 		}
 	}
+	if place_meeting(x,y,oShieldBossArmAttack) and oShieldBossArmAttack.image_index > 8 and oShieldBossArmAttack.image_index < 12 {
+		hp -= 3
+		iframes = 30
+		if hp <= 0 {
+			global.pause = true
+			instance_create_depth(x,y,-401,oGameOverAnim)
+			iframes = 0
+		}
+	}
 }

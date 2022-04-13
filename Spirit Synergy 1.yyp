@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sShieldBossInanimate","path":"sprites/sShieldBossInanimate/sShieldBossInanimate.yy",},"order":120,},
     {"id":{"name":"sVorm","path":"sprites/sVorm/sVorm.yy",},"order":39,},
     {"id":{"name":"sStalags","path":"sprites/sStalags/sStalags.yy",},"order":14,},
     {"id":{"name":"sBackButtonSelected","path":"sprites/sBackButtonSelected/sBackButtonSelected.yy",},"order":80,},
@@ -18,6 +19,7 @@
     {"id":{"name":"sBarrierEnemy","path":"sprites/sBarrierEnemy/sBarrierEnemy.yy",},"order":64,},
     {"id":{"name":"sTR0XIdle","path":"sprites/sTR0XIdle/sTR0XIdle.yy",},"order":10,},
     {"id":{"name":"oWallJumpBoss","path":"objects/oWallJumpBoss/oWallJumpBoss.yy",},"order":12,},
+    {"id":{"name":"sShieldBossArmAttack","path":"sprites/sShieldBossArmAttack/sShieldBossArmAttack.yy",},"order":122,},
     {"id":{"name":"sFinleyPlaceholder","path":"sprites/sFinleyPlaceholder/sFinleyPlaceholder.yy",},"order":47,},
     {"id":{"name":"oHealth","path":"objects/oHealth/oHealth.yy",},"order":21,},
     {"id":{"name":"sBackground_2_5","path":"sprites/sBackground_2_5/sBackground_2_5.yy",},"order":108,},
@@ -26,6 +28,7 @@
     {"id":{"name":"sBackgrounds_3_3","path":"sprites/sBackgrounds_3_3/sBackgrounds_3_3.yy",},"order":97,},
     {"id":{"name":"sDemoBlock","path":"sprites/sDemoBlock/sDemoBlock.yy",},"order":94,},
     {"id":{"name":"sTileset","path":"sprites/sTileset/sTileset.yy",},"order":13,},
+    {"id":{"name":"sShieldBossAttack","path":"sprites/sShieldBossAttack/sShieldBossAttack.yy",},"order":121,},
     {"id":{"name":"oCheatsButton","path":"objects/oCheatsButton/oCheatsButton.yy",},"order":26,},
     {"id":{"name":"sArmorDie","path":"sprites/sArmorDie/sArmorDie.yy",},"order":33,},
     {"id":{"name":"sGoblinAttack","path":"sprites/sGoblinAttack/sGoblinAttack.yy",},"order":12,},
@@ -47,6 +50,7 @@
     {"id":{"name":"tStalags","path":"tilesets/tStalags/tStalags.yy",},"order":2,},
     {"id":{"name":"sWallJumpParticle","path":"sprites/sWallJumpParticle/sWallJumpParticle.yy",},"order":115,},
     {"id":{"name":"oGhostProjectileBarrier","path":"objects/oGhostProjectileBarrier/oGhostProjectileBarrier.yy",},"order":17,},
+    {"id":{"name":"oShieldBossArmAttack","path":"objects/oShieldBossArmAttack/oShieldBossArmAttack.yy",},"order":54,},
     {"id":{"name":"oPauseScreenBackground","path":"objects/oPauseScreenBackground/oPauseScreenBackground.yy",},"order":22,},
     {"id":{"name":"sBarrierParticle","path":"sprites/sBarrierParticle/sBarrierParticle.yy",},"order":69,},
     {"id":{"name":"Room_4_5","path":"rooms/Room_4_5/Room_4_5.yy",},"order":13,},
@@ -126,6 +130,7 @@
     {"id":{"name":"sInvincibilityToggleOff","path":"sprites/sInvincibilityToggleOff/sInvincibilityToggleOff.yy",},"order":82,},
     {"id":{"name":"sBananaForScale","path":"sprites/sBananaForScale/sBananaForScale.yy",},"order":23,},
     {"id":{"name":"sTregoriousDefeat","path":"sprites/sTregoriousDefeat/sTregoriousDefeat.yy",},"order":114,},
+    {"id":{"name":"sShieldBossRun","path":"sprites/sShieldBossRun/sShieldBossRun.yy",},"order":119,},
     {"id":{"name":"oWallJumpBossDefeat","path":"objects/oWallJumpBossDefeat/oWallJumpBossDefeat.yy",},"order":49,},
     {"id":{"name":"sArmorAttack","path":"sprites/sArmorAttack/sArmorAttack.yy",},"order":34,},
     {"id":{"name":"oButtonBase","path":"objects/oButtonBase/oButtonBase.yy",},"order":35,},
@@ -177,6 +182,7 @@
     {"id":{"name":"sInfiniteSpiritToggleOn","path":"sprites/sInfiniteSpiritToggleOn/sInfiniteSpiritToggleOn.yy",},"order":90,},
     {"id":{"name":"oGrass","path":"objects/oGrass/oGrass.yy",},"order":6,},
     {"id":{"name":"oGhostProjectileParticle","path":"objects/oGhostProjectileParticle/oGhostProjectileParticle.yy",},"order":15,},
+    {"id":{"name":"oShieldBossArmor","path":"objects/oShieldBossArmor/oShieldBossArmor.yy",},"order":53,},
     {"id":{"name":"Room_1_3","path":"rooms/Room_1_3/Room_1_3.yy",},"order":0,},
   ],
   "Options": [
