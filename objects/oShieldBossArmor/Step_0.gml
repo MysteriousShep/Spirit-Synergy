@@ -30,13 +30,15 @@ if not global.pause {
 		} else {
 			key_left = false
 			key_right = false
-			if attackFrame < -120 {
-				attackFrame = 90
-				image_index = 0
-				if oPlayer.x < x {
-					image_xscale = -4
-				} else {
-					image_xscale = 4
+			if stunFrame <= 0 {
+				if attackFrame < -120 {
+					attackFrame = 90
+					image_index = 0
+					if oPlayer.x < x {
+						image_xscale = -4
+					} else {
+						image_xscale = 4
+					}
 				}
 			}
 		}
@@ -76,10 +78,15 @@ if not global.pause {
 		}
 	}
 	else {
-		image_speed = 1
+		if stunFrame <= 60 {
+			image_speed = 1
+		} else {
+			image_speed = 0
+			image_index = 0
+		}
 		sprite_index = sShieldBossInanimate
-		if image_index >= 10 {
-			image_index = 10
+		if image_index >= 9 {
+			image_index = 9
 		}
 	}
 } else {
