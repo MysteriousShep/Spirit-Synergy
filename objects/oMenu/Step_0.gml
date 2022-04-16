@@ -2,19 +2,17 @@
 switch(currentMenu) {
 	case("title"):
 		if (is_controller) {
-			if (gamepad_axis_value(pad_num,gp_axislv) > 0) {
-				switch(selectedButton) {
-					case("start"):
-						break;
-				}
-			}
-			if (gamepad_axis_value(pad_num,gp_axislv) < 0) {
-				switch(selectedButton) {
-					case("start"):
-						break;
-				}
-			}
 			if (gamepad_button_check_pressed(pad_num,gp_face3) or gamepad_button_check_pressed(pad_num,gp_face1)) {
+				switch(selectedButton) {
+					case("start"):
+						room_goto(Room_1_3);
+						buttons = pauseButtons;
+						currentMenu = "none";
+						break;
+				}
+			}
+		} else {
+			if (keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter)) {
 				switch(selectedButton) {
 					case("start"):
 						room_goto(Room_1_3);

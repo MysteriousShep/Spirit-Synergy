@@ -44,6 +44,9 @@ if(is_controller == true)
 	haxis =gamepad_axis_value(pad_num, gp_axisrh);
 
 	vaxis = gamepad_axis_value(pad_num, gp_axisrv);
+} else {
+	haxis = (keyboard_check(vk_right) - keyboard_check(vk_left))
+	vaxis = (keyboard_check(vk_down) - keyboard_check(vk_up))
 }
 
 
@@ -51,9 +54,7 @@ if (haxis != 0 or vaxis != 0) {
 	hsp += haxis*1.5
 	vsp += vaxis*1.5
 }
-if lifetime >= 85 {
-	vsp += vaxis*0.5
-}
+
 if hsp > 0 image_xscale = 4
 if hsp < 0 image_xscale = -4
 i = 1

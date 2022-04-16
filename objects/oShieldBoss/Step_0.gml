@@ -1,28 +1,36 @@
 
 if not global.pause {
 	if oShieldBossArmor.stunFrame <= 60 {
-		if oPlayer.x < x and abs(oPlayer.x-x) < 300 {
+		if oPlayer.x < x and abs(oPlayer.x-x) < 250 {
 			key_left = false
 			key_right = true
-		} else if abs(oPlayer.x-x) < 300 {
+		} else if abs(oPlayer.x-x) < 250 {
 			key_left = true
 			key_right = false
+		} else if abs(oPlayer.x-x) > 350 {
+			if oPlayer.x < x {
+				key_left = true
+				key_right = false
+			} else {
+				key_left = false
+				key_right = true
+			}
 		} else {
 			key_left = false
 			key_right = false
-			if attackFrame <= -495 and oShieldBossArmor.stunFrame >= 60 {
-				attackFrame = 45
-				image_index = 0
-				if oPlayer.x < x {
-					image_xscale = -4
-				} else {
-					image_xscale = 4
-				}
-			}
 		}
 	} else {
 		key_left = false
 		key_right = false
+	}
+	if attackFrame <= -300 and oShieldBossArmor.stunFrame > 0 {
+		attackFrame = 45
+		image_index = 0
+		if oPlayer.x < x {
+			image_xscale = -4
+		} else {
+			image_xscale = 4
+		}
 	}
 	if attackFrame = 15 {
 		oShieldBossArmor.stunFrame = 60

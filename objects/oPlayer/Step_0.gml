@@ -9,10 +9,17 @@ switch(state) {
 			key_left = gamepad_axis_value(pad_num,gp_axislh) < 0 or gamepad_button_check(pad_num,gp_padl)
 			key_right = gamepad_axis_value(pad_num,gp_axislh) > 0 or gamepad_button_check(pad_num,gp_padr)
 			key_jump = gamepad_button_check(pad_num,gp_face2) or gamepad_button_check(pad_num,gp_face3) or gamepad_button_check(pad_num,gp_shoulderlb)
-			dash = gamepad_button_check_pressed(pad_num,gp_face1) or gamepad_button_check_pressed(pad_num,gp_face4) or gamepad_button_check_pressed(pad_num,gp_shoulderl)
+			dash = gamepad_button_check_pressed(pad_num,gp_face4) or gamepad_button_check_pressed(pad_num,gp_face4) or gamepad_button_check_pressed(pad_num,gp_shoulderl)
 			attack = gamepad_button_check_pressed(pad_num,gp_shoulderr)
-			projectile =  gamepad_button_check_pressed(pad_num,gp_shoulderrb)
+			projectile =  gamepad_button_check_pressed(pad_num,gp_shoulderrb) or gamepad_button_check_pressed(pad_num,gp_face1)
 			key_down = gamepad_axis_value(pad_num,gp_axislv) > 0
+		} else {
+			key_left = keyboard_check(ord("A"))
+			key_right = keyboard_check(ord("D"))
+			key_jump = keyboard_check(vk_space)
+			dash = keyboard_check_pressed(ord("Q"))
+			attack = keyboard_check_pressed(ord("R"))
+			projectile = keyboard_check_pressed(ord("E"))
 		}
 		break
 	case("dash"):
@@ -28,6 +35,9 @@ switch(state) {
 			if is_controller {
 				key_left = gamepad_axis_value(pad_num,gp_axislh) < 0 or gamepad_button_check(pad_num,gp_padl)
 				key_right = gamepad_axis_value(pad_num,gp_axislh) > 0 or gamepad_button_check(pad_num,gp_padr)
+			} else {
+				key_left = keyboard_check(ord("A"))
+				key_right = keyboard_check(ord("D"))
 			}
 		} else {
 			key_left = false
@@ -37,6 +47,9 @@ switch(state) {
 		if is_controller
 		{
 			dash = gamepad_button_check_pressed(pad_num,gp_face1) or gamepad_button_check(pad_num,gp_face4)
+			projectile = false
+		} else {
+			dash = keyboard_check_pressed(ord("Q"))
 			projectile = false
 		}
 		attack = false

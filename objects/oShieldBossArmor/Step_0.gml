@@ -4,7 +4,7 @@ if not global.pause {
 		if abs(oPlayer.x-x) < 150 {
 			key_left = false
 			key_right = true
-		} else if abs(oPlayer.x-x) > 250 {
+		} else if abs(oPlayer.x-x) > 275 {
 			key_left = true
 			key_right = false
 		} else {
@@ -24,7 +24,7 @@ if not global.pause {
 		if abs(oPlayer.x-x) < 150 {
 			key_left = true
 			key_right = false
-		} else if abs(oPlayer.x-x) > 250 {
+		} else if abs(oPlayer.x-x) > 275 {
 			key_left = false
 			key_right = true
 		} else {
@@ -88,6 +88,9 @@ if not global.pause {
 		if image_index >= 9 {
 			image_index = 9
 		}
+	}
+	if !instance_exists(oShieldBoss) {
+		stunFrame = 62
 	}
 } else {
 	image_speed = 0

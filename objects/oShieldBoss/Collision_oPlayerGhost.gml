@@ -6,7 +6,7 @@ if iframes <= 0 {
 		if shieldHp < 1 {
 			if instance_exists(oShieldBossBarrier) instance_destroy(oShieldBossBarrier)
 			attackFrame = 0
-			oShieldBossArmor.stunFrame = 600
+			oShieldBossArmor.stunFrame = 660
 			if instance_exists(oShieldBossArmAttack) instance_destroy(oShieldBossArmAttack)
 		}
 		iframes = 20
