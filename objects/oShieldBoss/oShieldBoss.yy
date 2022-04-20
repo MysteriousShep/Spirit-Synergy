@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sSummonerRun",
+    "path": "sprites/sSummonerRun/sSummonerRun.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

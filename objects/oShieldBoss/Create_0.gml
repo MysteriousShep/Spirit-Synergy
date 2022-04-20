@@ -14,5 +14,6 @@ walksp = 2
 stunFrame = 0
 iframes = 0
 attackFrame = 0
-shieldHp = 5
+shieldHp = 3
 instance_create_depth(x,y,2,oShieldBossBarrier)
+

@@ -4,10 +4,10 @@ if not global.pause {
 		if oPlayer.x < x and abs(oPlayer.x-x) < 250 {
 			key_left = false
 			key_right = true
-		} else if abs(oPlayer.x-x) < 250 {
+		} else if abs(oPlayer.x-x) < 275 {
 			key_left = true
 			key_right = false
-		} else if abs(oPlayer.x-x) > 350 {
+		} else if abs(oPlayer.x-x) > 325 {
 			if oPlayer.x < x {
 				key_left = true
 				key_right = false
@@ -23,7 +23,7 @@ if not global.pause {
 		key_left = false
 		key_right = false
 	}
-	if attackFrame <= -300 and oShieldBossArmor.stunFrame > 0 {
+	if attackFrame <= -370 and oShieldBossArmor.stunFrame > 0 {
 		attackFrame = 45
 		image_index = 0
 		if oPlayer.x < x {
@@ -61,25 +61,43 @@ if not global.pause {
 		if attackFrame <= 0 enemy_ai(0.5,0.3,21,true,0.8)
 		attackFrame -= 1
 		image_speed = 1
-		if attackFrame >= 0 {
-			sprite_index = sSummonerSummon
+		if oShieldBossArmor.stunFrame <= 60 {
+			if attackFrame >= 0 {
+				sprite_index = sSummonerSummon
+			} else {
+				if (abs(hsp) <= 0.5)
+				{
+					sprite_index = sSummonerRun
+					image_speed = 0
+					image_index = 0
+				}
+				else
+				{
+					sprite_index = sSummonerRun
+					image_speed = walksp/2
+				}
+				if hsp != 0 image_xscale = sign(hsp)*4
+			}
 		} else {
-			if (abs(hsp) <= 0.5)
-			{
-				sprite_index = sSummonerRun
-				image_speed = 0
-				image_index = 0
+			if attackFrame >= 0 {
+				sprite_index = sSummonerSummon
+			} else {
+				sprite_index = sSummonerStun
+				image_speed = 1
 			}
-			else
-			{
-				sprite_index = sSummonerRun
-				image_speed = walksp/2
-			}
-			if hsp != 0 image_xscale = sign(hsp)*4
 		}
 	}
 	else {
-		image_speed = 0
+		if oShieldBossArmor.stunFrame <= 60 {
+			image_speed = 0
+		} else {
+			if attackFrame >= 0 {
+				image_speed = 0
+			} else {
+				sprite_index = sSummonerStun
+				image_speed = 1
+			}
+		}
 	}
 } else {
 	image_speed = 0
