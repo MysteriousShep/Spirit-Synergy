@@ -44,9 +44,15 @@ if not global.pause {
 		}
 		if frame < -300 {
 			frame = 60
+			cycle += 1
+			if cycle > 2 {
+				instance_create_layer(x,y,"instances",oVormGhost)
+				cycle = 0
+			}
 		}
 		frame -= 1
-
+		
+		
 	} else {
 		image_speed = 0
 	}

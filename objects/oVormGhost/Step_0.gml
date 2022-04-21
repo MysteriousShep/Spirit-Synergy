@@ -30,14 +30,14 @@ if (haxis != 0 or vaxis != 0) {
 }
 */
 if sign(vaxis) != sign(vsp) {
-	vsp += vaxis*0.1
+	vsp += vaxis*0.05
 } else {
-	vsp += vaxis*0.25
+	vsp += vaxis*0.2
 }
 if sign(haxis) != sign(hsp) {
-	hsp += haxis*0.1
+	hsp += haxis*0.05
 } else {
-	hsp += haxis*0.25
+	hsp += haxis*0.2
 }
 if hsp > 0 image_xscale = 4
 if hsp < 0 image_xscale = -4
