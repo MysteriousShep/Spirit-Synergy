@@ -15,5 +15,8 @@ stunFrame = 0
 iframes = 0
 attackFrame = 0
 shieldHp = 3
-instance_create_depth(x,y,2,oShieldBossBarrier)
-
+if oPlayer.hasShieldBreak {
+	instance_destroy(self)
+} else {
+	instance_create_depth(x,y,2,oShieldBossBarrier)
+}

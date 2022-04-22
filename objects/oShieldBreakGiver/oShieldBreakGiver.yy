@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sSummonerDefeat",
-    "path": "sprites/sSummonerDefeat/sSummonerDefeat.yy",
+    "name": "sShieldBreakParticle",
+    "path": "sprites/sShieldBreakParticle/sShieldBreakParticle.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oShieldBossDefeat",
+  "name": "oShieldBreakGiver",
   "tags": [],
   "resourceType": "GMObject",
 }

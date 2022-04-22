@@ -16,3 +16,6 @@ wallJumpCooldown = 0
 cling = false
 nextAttack = "attack"
 prevAttack = "jump1"
+if oPlayer.hasWallJump {
+	instance_destroy(self)
+}

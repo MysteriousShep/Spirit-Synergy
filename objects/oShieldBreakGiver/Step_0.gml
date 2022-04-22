@@ -7,7 +7,7 @@ if lifetime > 45 {
 	{
 		instance_destroy(self);
 		with oPlayer {
-			hasWallJump = true;
+			hasShieldBreak = true;
 			hp = 9;
 		}
 	}
@@ -20,6 +20,6 @@ distX = x-xprevious;
 distY = y-yprevious;
 var i = 0;
 repeat(10) {
-	instance_create_depth(x-distX*i,y-distY*i,0,oWallJumpGiverParticle);
+	instance_create_depth(x-distX*i,y-distY*i,0,oShieldBreakGiverParticle);
 	i += 0.1;
 }
