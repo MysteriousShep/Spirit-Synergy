@@ -31,6 +31,7 @@
         {"FrameId":{"name":"c668df96-ed73-4c95-a85c-52c998f9adfb","path":"sprites/sShieldBossAttack/sShieldBossAttack.yy",},"LayerId":{"name":"b8bc3368-a7f8-4e09-b526-29494a63ec49","path":"sprites/sShieldBossAttack/sShieldBossAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"c668df96-ed73-4c95-a85c-52c998f9adfb","path":"sprites/sShieldBossAttack/sShieldBossAttack.yy",},"LayerId":{"name":"93e4a8af-331f-4126-b039-36c0db20e0a5","path":"sprites/sShieldBossAttack/sShieldBossAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"c668df96-ed73-4c95-a85c-52c998f9adfb","path":"sprites/sShieldBossAttack/sShieldBossAttack.yy",},"LayerId":{"name":"064cadc5-6e76-4334-9c92-feb4343e2a49","path":"sprites/sShieldBossAttack/sShieldBossAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"c668df96-ed73-4c95-a85c-52c998f9adfb","path":"sprites/sShieldBossAttack/sShieldBossAttack.yy",},"LayerId":{"name":"a18ec45b-352c-4151-98b1-e0121b6309f8","path":"sprites/sShieldBossAttack/sShieldBossAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sShieldBossAttack","path":"sprites/sShieldBossAttack/sShieldBossAttack.yy",},"resourceVersion":"1.0","name":"c668df96-ed73-4c95-a85c-52c998f9adfb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -70,6 +71,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"a18ec45b-352c-4151-98b1-e0121b6309f8","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Spear","resourceVersion":"1.0","name":"4eb1e27a-5608-4657-a09d-d55651e92c5b","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Head","resourceVersion":"1.0","name":"40184366-781d-43db-826f-a83f5fae3119","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Left Arm/Leg","resourceVersion":"1.0","name":"9062cb11-9c9f-4a3d-b7a4-7e936455975b","tags":[],"resourceType":"GMImageLayer",},
