@@ -28,12 +28,11 @@ framesUntilControlable = 20
 roomArray = [
 				[Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room],
 				[Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room],
-				[Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room,Debug_Room],
-				[Room_1_2,Room_1_3,Room_2_3,Room_3_3,Room_3_3_5,Room_4_3,Room_5_3],
-				[Debug_Room,Debug_Room,Debug_Room,Room_2_4,Room_3_4,Room_4_4,Debug_Room],
-				[Debug_Room,Debug_Room,Debug_Room,Room_2_5,Room_3_5,Room_4_5,Debug_Room]]
+				[Debug_Room,Debug_Room,Debug_Room,Room_4_2,Room_4_2_5,Room_5_2],
+				[Room_1_3,Room_2_3,Room_3_3,Room_4_3,Room_4_3_5,Room_5_3,Room_6_3,Room_7_3],
+				[Debug_Room,Debug_Room,Room_3_4,Room_4_4,Room_4_4_5,Room_5_4,Debug_Room],
+				[Debug_Room,Debug_Room,Debug_Room,Room_4_5,Room_4_5_5,Room_5_5,Debug_Room]]
 				
-
 animations = {
 	run : sFinleyRun,
 	cling : sFinleyCling,

@@ -25,7 +25,7 @@ switch(currentMenu) {
 			if (gamepad_button_check_pressed(pad_num,gp_face3) or gamepad_button_check_pressed(pad_num,gp_face1)) {
 				switch(selectedButton) {
 					case("start"):
-						room_goto(Room_1_3);
+						room_goto(Room_2_3);
 						buttons = pauseButtons;
 						currentMenu = "none";
 						break;
@@ -66,7 +66,7 @@ switch(currentMenu) {
 			if (keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter)) {
 				switch(selectedButton) {
 					case("start"):
-						room_goto(Room_1_3);
+						room_goto(Room_2_3);
 						buttons = pauseButtons;
 						currentMenu = "none";
 						break;
@@ -265,7 +265,7 @@ if (room = Room_GameOver) {
 			instance_destroy(oPlayer);
 			instance_destroy(oSpiritBar);
 			instance_destroy(oHealth);
-			room_goto(Room_1_3);
+			room_goto(Room_2_3);
 			buttons = pauseButtons;
 			currentMenu = "none";
 		}
