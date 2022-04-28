@@ -2,6 +2,26 @@
 switch(currentMenu) {
 	case("title"):
 		if (is_controller) {
+			if (gamepad_axis_value(pad_num,gp_axislv) > 0) {
+				if (delay <= 0) {
+					chosenIndex -= 1;
+					if (chosenIndex < 0) {
+						chosenIndex = array_length(buttons)-1;
+					}
+					selectedButton = buttons[chosenIndex];
+					delay = 10;
+				}
+			}
+			if (gamepad_axis_value(pad_num,gp_axislv) < 0) {
+				if (delay <= 0) {
+					chosenIndex += 1;
+					if (chosenIndex >= array_length(buttons)) {
+						chosenIndex = 0;
+					}
+					selectedButton = buttons[chosenIndex];
+					delay = 10;
+				}
+			}
 			if (gamepad_button_check_pressed(pad_num,gp_face3) or gamepad_button_check_pressed(pad_num,gp_face1)) {
 				switch(selectedButton) {
 					case("start"):
@@ -9,9 +29,40 @@ switch(currentMenu) {
 						buttons = pauseButtons;
 						currentMenu = "none";
 						break;
+					case("credits"):
+						currentMenu = "credits";
+						buttons = ["back"];
+						selectedButton = "back";
+						instance_create_layer(1280/2,704/2,"instances_1",oCredits);
 				}
 			}
+			if (gamepad_axis_value(pad_num,gp_axislh) > 0 and selectedButton = "controls") {
+				controls = "press"
+			}
+			if (gamepad_axis_value(pad_num,gp_axislh) < 0 and selectedButton = "controls") {
+				controls = "flick"
+			}
 		} else {
+			if (keyboard_check(ord("W")) or keyboard_check(vk_up)) {
+				if (delay <= 0) {
+					chosenIndex -= 1;
+					if (chosenIndex < 0) {
+						chosenIndex = array_length(buttons)-1;
+					}
+					selectedButton = buttons[chosenIndex];
+					delay = 10;
+				}
+			}
+			if (keyboard_check(ord("S")) or keyboard_check(vk_down)) {
+				if (delay <= 0) {
+					chosenIndex += 1;
+					if (chosenIndex >= array_length(buttons)) {
+						chosenIndex = 0;
+					}
+					selectedButton = buttons[chosenIndex];
+					delay = 10;
+				}
+			}
 			if (keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter)) {
 				switch(selectedButton) {
 					case("start"):
@@ -19,10 +70,77 @@ switch(currentMenu) {
 						buttons = pauseButtons;
 						currentMenu = "none";
 						break;
+					case("credits"):
+						currentMenu = "credits";
+						buttons = ["back"];
+						selectedButton = "back";
+						instance_create_layer(1280/2,704/2,"instances_1",oCredits);
 				}
 			}
 		}
-		break
+		break;
+	case("credits"):
+		if (is_controller) {
+			if (gamepad_axis_value(pad_num,gp_axislv) > 0) {
+				if (delay <= 0) {
+					chosenIndex -= 1;
+					if (chosenIndex < 0) {
+						chosenIndex = array_length(buttons)-1;
+					}
+					selectedButton = buttons[chosenIndex];
+					delay = 10;
+				}
+			}
+			if (gamepad_axis_value(pad_num,gp_axislv) < 0) {
+				if (delay <= 0) {
+					chosenIndex += 1;
+					if (chosenIndex >= array_length(buttons)) {
+						chosenIndex = 0;
+					}
+					selectedButton = buttons[chosenIndex];
+					delay = 10;
+				}
+			}
+			if (gamepad_button_check_pressed(pad_num,gp_face3) or gamepad_button_check_pressed(pad_num,gp_face1)) {
+				switch(selectedButton) {
+					case("back"):
+						buttons = titleButtons;
+						currentMenu = "title";
+						selectedButton = "credits";
+						break;
+				}
+			}
+		} else {
+			if (keyboard_check(ord("W")) or keyboard_check(vk_up)) {
+				if (delay <= 0) {
+					chosenIndex -= 1;
+					if (chosenIndex < 0) {
+						chosenIndex = array_length(buttons)-1;
+					}
+					selectedButton = buttons[chosenIndex];
+					delay = 10;
+				}
+			}
+			if (keyboard_check(ord("S")) or keyboard_check(vk_down)) {
+				if (delay <= 0) {
+					chosenIndex += 1;
+					if (chosenIndex >= array_length(buttons)) {
+						chosenIndex = 0;
+					}
+					selectedButton = buttons[chosenIndex];
+					delay = 10;
+				}
+			}
+			if (keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_enter)) {
+				switch(selectedButton) {
+					case("back"):
+						buttons = titleButtons;
+						currentMenu = "title";
+						break;
+				}
+			}
+		}
+		break;
 	case("pause"):
 		if (is_controller) {
 			if (gamepad_axis_value(pad_num,gp_axislv) > 0) {

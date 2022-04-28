@@ -11,7 +11,11 @@ switch(state) {
 			key_jump = gamepad_button_check(pad_num,gp_face2) or gamepad_button_check(pad_num,gp_face3) or gamepad_button_check(pad_num,gp_shoulderlb)
 			dash = gamepad_button_check_pressed(pad_num,gp_face4) or gamepad_button_check_pressed(pad_num,gp_face4) or gamepad_button_check_pressed(pad_num,gp_shoulderl)
 			attack = gamepad_button_check_pressed(pad_num,gp_shoulderr)
-			projectile =  gamepad_button_check_pressed(pad_num,gp_shoulderrb) or gamepad_button_check_pressed(pad_num,gp_face1)
+			if oMenu.controls = "press" {
+				projectile =  gamepad_button_check_pressed(pad_num,gp_shoulderrb) or gamepad_button_check_pressed(pad_num,gp_face1)
+			} else {
+				projectile = abs(gamepad_axis_value(pad_num,gp_axisrh)) > 0 or abs(gamepad_axis_value(pad_num,gp_axisrv))
+			}
 			key_down = gamepad_axis_value(pad_num,gp_axislv) > 0
 		} else {
 			key_left = keyboard_check(ord("A"))

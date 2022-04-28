@@ -9,6 +9,10 @@ if lifetime > 45 {
 		with oPlayer {
 			hasWallJump = true;
 			hp = 9;
+			var text = instance_create_layer(x,y-80,"instances_1",oUnlockedText)
+			with text {
+				sprite_index = sWallJumpGet
+			}
 		}
 	}
 }

@@ -26,7 +26,9 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"fe6514ed-6238-4dab-94b2-ffe260f1c71a","path":"sprites/sCoverArt/sCoverArt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"fe6514ed-6238-4dab-94b2-ffe260f1c71a","path":"sprites/sCoverArt/sCoverArt.yy",},"LayerId":{"name":"76e70708-d777-4424-984f-da8a3eb1fa4c","path":"sprites/sCoverArt/sCoverArt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"fe6514ed-6238-4dab-94b2-ffe260f1c71a","path":"sprites/sCoverArt/sCoverArt.yy",},"LayerId":{"name":"03b66c9b-820d-4f52-b480-8ef2fd082520","path":"sprites/sCoverArt/sCoverArt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"fe6514ed-6238-4dab-94b2-ffe260f1c71a","path":"sprites/sCoverArt/sCoverArt.yy",},"LayerId":{"name":"31f020e2-cad7-4bf2-9eec-9732f524ccd9","path":"sprites/sCoverArt/sCoverArt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"fe6514ed-6238-4dab-94b2-ffe260f1c71a","path":"sprites/sCoverArt/sCoverArt.yy",},"LayerId":{"name":"97ed45b1-a53d-4f27-94ba-cb6305174066","path":"sprites/sCoverArt/sCoverArt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"fe6514ed-6238-4dab-94b2-ffe260f1c71a","path":"sprites/sCoverArt/sCoverArt.yy",},"LayerId":{"name":"ea96029f-f038-4f67-9a1d-e4fa03147bb9","path":"sprites/sCoverArt/sCoverArt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"fe6514ed-6238-4dab-94b2-ffe260f1c71a","path":"sprites/sCoverArt/sCoverArt.yy",},"LayerId":{"name":"709dc301-4f4f-419f-8abe-47e6f7921816","path":"sprites/sCoverArt/sCoverArt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"fe6514ed-6238-4dab-94b2-ffe260f1c71a","path":"sprites/sCoverArt/sCoverArt.yy",},"LayerId":{"name":"f0d14210-1d92-4d16-afb1-6574e0bbb783","path":"sprites/sCoverArt/sCoverArt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -82,8 +84,10 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Title","resourceVersion":"1.0","name":"76e70708-d777-4424-984f-da8a3eb1fa4c","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Spirit","resourceVersion":"1.0","name":"31f020e2-cad7-4bf2-9eec-9732f524ccd9","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Player","resourceVersion":"1.0","name":"ea96029f-f038-4f67-9a1d-e4fa03147bb9","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Spirit (2)","resourceVersion":"1.0","name":"03b66c9b-820d-4f52-b480-8ef2fd082520","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Spirit","resourceVersion":"1.0","name":"31f020e2-cad7-4bf2-9eec-9732f524ccd9","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Player (2)","resourceVersion":"1.0","name":"97ed45b1-a53d-4f27-94ba-cb6305174066","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Player","resourceVersion":"1.0","name":"ea96029f-f038-4f67-9a1d-e4fa03147bb9","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":20.0,"displayName":"Fade","resourceVersion":"1.0","name":"709dc301-4f4f-419f-8abe-47e6f7921816","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Greyed Out Bosses (2)","resourceVersion":"1.0","name":"f0d14210-1d92-4d16-afb1-6574e0bbb783","tags":[],"resourceType":"GMImageLayer",},
     {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Greyed Out Bosses","resourceVersion":"1.0","name":"bffd80ee-87b1-4d9e-bd9c-57679f9444a0","tags":[],"resourceType":"GMImageLayer",},
