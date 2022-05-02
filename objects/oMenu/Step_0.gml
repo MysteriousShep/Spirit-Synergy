@@ -33,7 +33,7 @@ switch(currentMenu) {
 						currentMenu = "credits";
 						buttons = ["back"];
 						selectedButton = "back";
-						instance_create_layer(1280/2,704/2,"instances_1",oCredits);
+						instance_create_layer(room_width/2,room_height/2,"instances_1",oCredits);
 				}
 			}
 			if (gamepad_axis_value(pad_num,gp_axislh) > 0 and selectedButton = "controls") {
@@ -74,7 +74,7 @@ switch(currentMenu) {
 						currentMenu = "credits";
 						buttons = ["back"];
 						selectedButton = "back";
-						instance_create_layer(1280/2,704/2,"instances_1",oCredits);
+						instance_create_layer(room_width/2,room_height/2,"instances_1",oCredits);
 				}
 			}
 		}
@@ -176,9 +176,9 @@ switch(currentMenu) {
 						buttons = cheatButtons;
 						chosenIndex = 0;
 						selectedButton = buttons[chosenIndex];
-						instance_create_layer(1280/2,704/2,"instances_1",oInvincibilityToggle);
-						instance_create_layer(1280/2,704/2+64,"instances_1",oInfiniteSpiritToggle);
-						instance_create_layer(1280/2,704/2+128,"instances_1",oBackButton);
+						instance_create_layer(room_width/2,room_height/2,"instances_1",oInvincibilityToggle);
+						instance_create_layer(room_width/2,room_height/2+64,"instances_1",oInfiniteSpiritToggle);
+						instance_create_layer(room_width/2,room_height/2+128,"instances_1",oBackButton);
 						break;
 				}
 			}
@@ -218,8 +218,8 @@ switch(currentMenu) {
 						buttons = pauseButtons;
 						chosenIndex = 0;
 						selectedButton = buttons[chosenIndex];
-						instance_create_layer(1280/2,704/2,"instances_1",oResumeButton);
-						instance_create_layer(1280/2,704/2+64,"instances_1",oCheatsButton);
+						instance_create_layer(room_width/2,room_height/2,"instances_1",oResumeButton);
+						instance_create_layer(room_width/2,room_height/2+64,"instances_1",oCheatsButton);
 						break;
 					case("invincibility"):
 						oPlayer.godMode = not oPlayer.godMode;
@@ -239,8 +239,8 @@ switch(currentMenu) {
 				buttons = pauseButtons;
 				chosenIndex = 0;
 				selectedButton = buttons[chosenIndex];
-				instance_create_layer(1280/2,704/2,"instances_1",oResumeButton);
-				instance_create_layer(1280/2,704/2+64,"instances_1",oCheatsButton);
+				instance_create_layer(room_width/2,room_height/2,"instances_1",oResumeButton);
+				instance_create_layer(room_width/2,room_height/2+64,"instances_1",oCheatsButton);
 			}
 			if (gamepad_axis_value(pad_num,gp_axislh) > 0 and selectedButton = "invincibility") {
 				oPlayer.godMode = true;

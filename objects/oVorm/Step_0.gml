@@ -25,11 +25,12 @@ if not global.pause {
 
 	if stunFrame <= 0 and stunFrame > -999{
 		if frame = 0 {
-			x = irandom_range(0,room_width)
-			y = irandom_range(128+sprite_height,room_height-128)
+			x = irandom_range(256,room_width-256)
+			y = irandom_range(256+sprite_height,room_height-256)
 			while not place_meeting(x,y,oWall) {
 				y += 1
 			}
+			y -= 1
 		}
 		if frame >= 0 {
 			image_speed = 1
