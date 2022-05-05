@@ -159,17 +159,17 @@ var move = key_right - key_left
 	//Horizontal Collision
 	
 	if not noClip {
-	if (place_meeting(x+hsp,y,oWall) or place_meeting(x+hsp,y,oEnemyBarrier) or place_meeting(x+hsp,y,oTargetDoor)) 
+	if (place_meeting(x+hsp,y,oWall) or place_meeting(x+hsp,y,oEnemyBarrier) or place_meeting(x+hsp,y,oTargetDoor) or place_meeting(x+hsp,y,oWallJumpDoor) or place_meeting(x+hsp,y,oShieldBreakDoor)) 
 	{
 	
 		repeat(8)
 		{
-			if (place_meeting(x+hsp, y, oWall) or place_meeting(x+hsp,y,oEnemyBarrier) or place_meeting(x+hsp,y,oTargetDoor)) y -= 1;
+			if (place_meeting(x+hsp, y, oWall) or place_meeting(x+hsp,y,oEnemyBarrier) or place_meeting(x+hsp,y,oTargetDoor) or place_meeting(x+hsp,y,oWallJumpDoor) or place_meeting(x+hsp,y,oShieldBreakDoor)) y -= 1;
 		}
 	
-		if (place_meeting(x+hsp, y, oWall) or place_meeting(x+hsp,y,oEnemyBarrier) or place_meeting(x+hsp,y,oTargetDoor))
+		if (place_meeting(x+hsp, y, oWall) or place_meeting(x+hsp,y,oEnemyBarrier) or place_meeting(x+hsp,y,oTargetDoor) or place_meeting(x+hsp,y,oWallJumpDoor) or place_meeting(x+hsp,y,oShieldBreakDoor))
 		{
-			while (!place_meeting(x+sign(hsp),y,oWall) and !place_meeting(x+sign(hsp),y,oEnemyBarrier) and !place_meeting(x+sign(hsp),y,oTargetDoor))
+			while (!place_meeting(x+sign(hsp),y,oWall) and !place_meeting(x+sign(hsp),y,oEnemyBarrier) and !place_meeting(x+sign(hsp),y,oTargetDoor)  and !place_meeting(x+sign(hsp),y,oWallJumpDoor)  and !place_meeting(x+sign(hsp),y,oShieldBreakDoor))
 			{
 				x = x + sign(hsp);
 			}
