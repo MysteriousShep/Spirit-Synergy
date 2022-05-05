@@ -32,6 +32,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-128.0,"y":448.0,"resourceVersion":"1.0","name":"inst_27E9E2E9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":768.0,"resourceVersion":"1.0","name":"inst_2C7EDBB1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":-256.0,"resourceVersion":"1.0","name":"inst_1547F775","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oBigMushroom","path":"objects/oBigMushroom/oBigMushroom.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":640.0,"resourceVersion":"1.0","name":"inst_30FF184E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tCaveTiles","path":"tilesets/tCaveTiles/tCaveTiles.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":20,"SerialiseHeight":11,"TileSerialiseData":[
 29,29,29,29,29,29,29,29,29,29,29,29,29,29,39,0,0,0,17,1,
@@ -82,6 +83,7 @@
     {"name":"inst_27E9E2E9","path":"rooms/Room_5_3/Room_5_3.yy",},
     {"name":"inst_2C7EDBB1","path":"rooms/Room_5_3/Room_5_3.yy",},
     {"name":"inst_1547F775","path":"rooms/Room_5_3/Room_5_3.yy",},
+    {"name":"inst_30FF184E","path":"rooms/Room_5_3/Room_5_3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

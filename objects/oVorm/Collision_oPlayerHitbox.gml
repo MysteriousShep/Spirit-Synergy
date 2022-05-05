@@ -1,6 +1,5 @@
 
 
-
 if iframes <= 0 and abs(frame) > 60{
 	hp -= 2
 	image_alpha = 0.75
@@ -14,4 +13,7 @@ if iframes <= 0 and abs(frame) > 60{
 		instance_destroy(oVormStaff)
 	}
 }
+
+
+
 

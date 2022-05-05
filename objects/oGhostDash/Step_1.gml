@@ -9,9 +9,9 @@ if instance_exists(creator) and creator.is_controller {
 }
 vspd += down*4 - up*4
 
-if (place_meeting(x,y+vspd,oWall) or place_meeting(x,y+vspd,oEnemyBarrier) or place_meeting(x,y+vspd,oWallJumpDoor) or place_meeting(x,y+vspd,oShieldBreakDoor))
+if (place_meeting(x,y+vspd,oWall) or place_meeting(x,y+vspd,oEnemyBarrier) or place_meeting(x,y+vspd,oWallJumpDoor) or place_meeting(x,y+vspd,oShieldBreakDoor) or place_meeting(x,y+vspd,oBigMushroom))
 {
-	while (!place_meeting(x,y+sign(vspd),oWall) and !place_meeting(x,y+sign(vspd),oEnemyBarrier) and !place_meeting(x,y+sign(vspd),oWallJumpDoor) and !place_meeting(x,y+sign(vspd),oShieldBreakDoor))
+	while (!place_meeting(x,y+sign(vspd),oWall) and !place_meeting(x,y+sign(vspd),oEnemyBarrier) and !place_meeting(x,y+sign(vspd),oWallJumpDoor) and !place_meeting(x,y+sign(vspd),oShieldBreakDoor) and !place_meeting(x,y+sign(vspd),oBigMushroom))
 	{
 		y = y + sign(vspd)
 	}	
@@ -19,9 +19,9 @@ if (place_meeting(x,y+vspd,oWall) or place_meeting(x,y+vspd,oEnemyBarrier) or pl
 }
 y += vspd;
 
-if (place_meeting(x+hspd,y,oWall) or place_meeting(x+hspd,y,oEnemyBarrier) or place_meeting(x+hspd,y,oTargetDoor) or place_meeting(x+hspd,y,oWallJumpDoor) or place_meeting(x+hspd,y,oShieldBreakDoor))
+if (place_meeting(x+hspd,y,oWall) or place_meeting(x+hspd,y,oEnemyBarrier) or place_meeting(x+hspd,y,oTargetDoor) or place_meeting(x+hspd,y,oWallJumpDoor) or place_meeting(x+hspd,y,oShieldBreakDoor) or place_meeting(x+hspd,y,oBigMushroom))
 {
-	while (!place_meeting(x+sign(hspd),y,oWall) and !place_meeting(x+sign(hspd),y,oEnemyBarrier) and !place_meeting(x+sign(hspd),y,oTargetDoor) and !place_meeting(x+sign(hspd),y,oWallJumpDoor) and !place_meeting(x+sign(hspd),y,oShieldBreakDoor))
+	while (!place_meeting(x+sign(hspd),y,oWall) and !place_meeting(x+sign(hspd),y,oEnemyBarrier) and !place_meeting(x+sign(hspd),y,oTargetDoor) and !place_meeting(x+sign(hspd),y,oWallJumpDoor) and !place_meeting(x+sign(hspd),y,oShieldBreakDoor) and !place_meeting(x+sign(hspd),y,oBigMushroom))
 	{
 		x = x + sign(hspd)
 	}	
