@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sVorm",
-    "path": "sprites/sVorm/sVorm.yy",
+    "name": "sVormIntro",
+    "path": "sprites/sVormIntro/sVormIntro.yy",
   },
   "solid": false,
   "visible": true,
